@@ -9,7 +9,6 @@ import _ from 'lodash'
 // import { useSearchResults, type Place } from '@/stores/results'
 import { useSearchResults } from '@/stores/results'
 import { useSearchApi, ExpiredRequest, DuplicatedRequest } from '../composables/searchApi';
-import { useGooglePlaces } from '../composables/googlePlaces';
 
 type MapEntry = {
   marker: mb.Marker;
@@ -20,7 +19,6 @@ const props = defineProps(); // for later use
 const markers = new Map<number, MapEntry>();
 const results = useSearchResults();
 const searchApi = useSearchApi();
-const googlePlaces = useGooglePlaces();
 let map: mb.Map;
 
 // When vue mounted add mapbox
