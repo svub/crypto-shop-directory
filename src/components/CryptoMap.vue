@@ -29,7 +29,6 @@ const results = useSearchResults();
     left 0
     max-width 50%
     height 100%
-    // overflow hidden
     overflow-y auto
     background rgba(0, 0, 0, .9)
     flex 1

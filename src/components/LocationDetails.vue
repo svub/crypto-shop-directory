@@ -9,7 +9,7 @@ let place = ref(results.shown?.place);
 
 const symbol = useCurrencySymbols();
 const images = ref();
-watchEffect(async () => {
+watchEffect(async () => { // load logos for each currency accepted by currently shown venue
   if (results.shown){
     const map = new Map<string, string>();
     for (const currency of results.shown.accepts) {
@@ -17,7 +17,6 @@ watchEffect(async () => {
       map.set(currency, url);
     }
     images.value = Object.fromEntries(map);
-    console.log(images.value);
   }
 });
 
@@ -27,18 +26,24 @@ watchEffect(() => place.value = results.shown?.place);
 <template lang="pug">
 .details(v-if="results.shown && place")
   .x(@click="results.show()") 𝗫
+
   h1 {{ results.shown.label }}
+
   .rating.panel
     .star(v-for="star in [1,2,3,4,5]") {{ star <= place.rating ? '★' : '☆' }}
     .total ({{ place.user_ratings_total ?? 0 }})
+
   .description.panel(v-if="results.shown.description") {{ results.shown.description }}
+
   .accepted.panel
     .currency(v-for="currency in results.shown.accepts" :class="_.kebabCase(_.deburr(currency))")
       img(:src="images[currency]" :title="`${currency} accepted here`")
+
   .contact.panel
     .address {{ place.formatted_address}}
     .phone(v-if="results.shown.phone") {{ results.shown.phone }}
     .website(v-if="results.shown.website") {{ results.shown.website }}
+
   .open.panel(v-if="place.opening_hours")
     .day(v-for="day in (place.opening_hours.weekday_text ?? [])") {{ day }}
 </template>

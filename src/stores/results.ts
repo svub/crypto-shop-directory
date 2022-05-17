@@ -22,7 +22,7 @@ export type Place = {
   };
   name: string;
   opening_hours: {
-    weekday_text: string[]; // one entrey per day starting Monday
+    weekday_text: string[]; // one entry per day starting Monday
   };
   rating: number; // average rating
   user_ratings_total: number; // number of ratings

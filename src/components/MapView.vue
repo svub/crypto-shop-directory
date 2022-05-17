@@ -3,10 +3,9 @@
 </template>
 
 <script setup lang="ts">
-import { onMounted, watch, warn, watchEffect } from 'vue';
+import { onMounted, warn, watchEffect } from 'vue';
 import * as mb from 'mapbox-gl'
 import _ from 'lodash'
-// import { useSearchResults, type Place } from '@/stores/results'
 import { useSearchResults } from '@/stores/results'
 import { useSearchApi, ExpiredRequest, DuplicatedRequest } from '../composables/searchApi';
 
@@ -21,7 +20,7 @@ const results = useSearchResults();
 const searchApi = useSearchApi();
 let map: mb.Map;
 
-// When vue mounted add mapbox
+// Add map when component is shown
 onMounted(async () => {
   map = new mb.Map({
     accessToken: "pk.eyJ1Ijoic3Zlbi1uaW1pcSIsImEiOiJja3puOHdkaWk0dnIwMm9wcWM4bnZuZ2xhIn0.4lPscV4Ong3kJys9340Fkw",
@@ -57,7 +56,7 @@ function pickupLocation(result: any) { return result?.pickups?.[0]?.place_inform
 
 async function loadResults(boundingBox: number[]) {
   const [north, east, south, west] = boundingBox;
-  const loadedResults = await searchApi.search(boundingBox); // body.data as Array<any>;
+  const loadedResults = await searchApi.search(boundingBox);
   const loadedIds = loadedResults.map(result => result.id);
   const oldIds = results.all.map(result => result.id);
   const toRemove = _.without(oldIds, ...loadedIds);
@@ -67,7 +66,7 @@ async function loadResults(boundingBox: number[]) {
   // remove all markers from the map that are not among the results anymore
   toRemove.forEach(id => {
     const entry = markers.get(id);
-    if (!entry) return console.warn(`MapView.loadResults toRemove: Map entry ${id} not found.`); // can happen on vite dev mode after hot code update
+    if (!entry) return warn(`MapView.loadResults toRemove: Map entry ${id} not found.`); // can happen on vite dev mode after hot code update
     entry.marker.remove();
     entry.marker.getElement().removeEventListener('click', entry.listener);
     markers.delete(id);
@@ -95,10 +94,12 @@ async function loadResults(boundingBox: number[]) {
         return result;
       }
     });
-    // .filter(result => result.place.business_status !== "CLOSED_PERMANENTLY");
 
   results.all = [...keepResults, ...newResults];
 
+  // keeping track of all the results that actually permanently closed, in a final production version, they could
+  // simply be filtered out using a
+  // .filter(result => result.place.business_status !== "CLOSED_PERMANENTLY");
   let permanentlyClosed = 0
   results.all.forEach(result => {
     if (result.place.business_status == "CLOSED_PERMANENTLY") {
@@ -137,10 +138,8 @@ watchEffect(async () => {
     previous = undefined;
   }
   if (results.shown) {
-    // const placeId = pickupLocation(results.shown).place_id;
     highlightMarker(results.shown.id);
     previous = results.shown.id;
-    // results.place = await loadGooglePlaceDetails(placeId);
   }
 });
 
@@ -177,6 +176,7 @@ watchEffect(async () => {
     svg
       display none
 
+    // styling of the orginal mapbox markers
     // svg
     //   &, path
     //     transition all .2s ease-out
