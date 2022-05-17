@@ -6,28 +6,22 @@
 import { onMounted, watch, warn, watchEffect } from 'vue';
 import * as mb from 'mapbox-gl'
 import _ from 'lodash'
+// import { useSearchResults, type Place } from '@/stores/results'
 import { useSearchResults } from '@/stores/results'
-
-const API = 'https://shop-directory.zeromox.com/api';
+import { useSearchApi, ExpiredRequest, DuplicatedRequest } from '../composables/searchApi';
+import { useGooglePlaces } from '../composables/googlePlaces';
 
 type MapEntry = {
   marker: mb.Marker;
   listener: EventListener;
 }
 
-let latestRequest = '';
-const markers = new Map<number, MapEntry>();
-
 const props = defineProps(); // for later use
-
-let map: mb.Map;
+const markers = new Map<number, MapEntry>();
 const results = useSearchResults();
-
-function clicked(result: any, marker: mb.Marker) {
-    console.info('click', result, marker.getElement());
-    // results.show(result);
-    results.shown = result;
-}
+const searchApi = useSearchApi();
+const googlePlaces = useGooglePlaces();
+let map: mb.Map;
 
 // When vue mounted add mapbox
 onMounted(async () => {
@@ -58,46 +52,23 @@ onMounted(async () => {
 
 async function viewPortChanged() {
   const bounds = map.getBounds();
-  return await loadResults(bounds.getNorth(), bounds.getEast(), bounds.getSouth(), bounds.getWest());
+  results.setBoundingBox (bounds.getNorth(), bounds.getEast(), bounds.getSouth(), bounds.getWest());
 }
 
-async function loadResults(north: number, east: number, south: number, west: number) {
-  // url.value = `${API}/search?filter[location]=${lat},${lng}&filter[radius]=${radius}`;
-  // url.value = `${API}/search?filter[limit]=200`;
-  const url = latestRequest = `${API}/search?filter[limit]=200&filter[bounding_box]=${west},${south},${east},${north}`;
-  console.log('Loading fresh results from', url);
-  const result = await fetch(url);
-  if (url !== latestRequest) {
-    console.info('Skipping results as request has been updated in the meantime.');
-    return;
-  }
-  if (result.status !== 200) {
-    console.warn (await result.text());
-    throw new Error(`Failed to load results. Error ${result.status}.`)
-  }
+function pickupLocation(result: any) { return result?.pickups?.[0]?.place_information; }
 
-  const body = await result.json();
-  const findLocation = (result: any) => (Object.values(result?.pickups)[0] as any)?.geo_location.coordinates;
-  if (body.total < 1 || body.data?.length < 1) {
-    console.info('No results.');
-    return;
-  }
-
-  const loadedResults = body.data as Array<any>;
+async function loadResults(boundingBox: number[]) {
+  const [north, east, south, west] = boundingBox;
+  const loadedResults = await searchApi.search(boundingBox); // body.data as Array<any>;
   const loadedIds = loadedResults.map(result => result.id);
   const oldIds = results.all.map(result => result.id);
   const toRemove = _.without(oldIds, ...loadedIds);
-//   const toRemove = _.difference(oldIds, loadedIds);
-  console.log('ids', oldIds, loadedIds);
-  console.log('w/t', _.without(oldIds, ...loadedIds));
-  console.log('diff', _.difference(oldIds, loadedIds));
   const keep = _.intersection(oldIds, loadedIds);
   const newIds = _.without(loadedIds, ...keep);
 
   // remove all markers from the map that are not among the results anymore
   toRemove.forEach(id => {
     const entry = markers.get(id);
-    // if (!entry) throw new Error(`Map entry ${id} not found.`);
     if (!entry) return console.warn(`MapView.loadResults toRemove: Map entry ${id} not found.`); // can happen on vite dev mode after hot code update
     entry.marker.remove();
     entry.marker.getElement().removeEventListener('click', entry.listener);
@@ -105,29 +76,53 @@ async function loadResults(north: number, east: number, south: number, west: num
   })
 
   // copy over all results that are already on the map
-  const newResults = results.all.filter(result => keep.indexOf(result.id) >= 0);
+  const keepResults = results.all.filter(result => keep.indexOf(result.id) >= 0);
 
-  // add entries for remaing results markers for remaining new results
-  results.all = newResults.concat(loadedResults
-    .filter(result => newIds.indexOf(result.id) >= 0 && findLocation(result)));;
+  // convert and add remaining search results
+  const newResults = loadedResults
+    .filter(result => newIds.indexOf(result.id) >= 0 && !!pickupLocation(result))
+    .map(result => {
+      try {
+        return {
+          id: result.id,
+          label: result.label,
+          description: result.description,
+          accepts: result.accepts,
+          phone: result.phone,
+          website: result.website,
+          place: JSON.parse(pickupLocation(result))
+        };
+      } catch (e) {
+        warn('Failed to parse', e, result);
+        return result;
+      }
+    });
+    // .filter(result => result.place.business_status !== "CLOSED_PERMANENTLY");
+
+  results.all = [...keepResults, ...newResults];
+
+  let permanentlyClosed = 0
+  results.all.forEach(result => {
+    if (result.place.business_status == "CLOSED_PERMANENTLY") {
+      permanentlyClosed++;
+      result.place.opening_hours = { weekday_text: ['permanently closed'] }; };
+  });
+  if (permanentlyClosed > 0) warn(`${permanentlyClosed} locations permanently closed`);
 
   // add markers for all entries that don't have one (could be new result, or all markers are gone after dev hot reload)
-  // console.log(results.all.forEach(result => markers.get(result.id)?.marker.getElement()))
   results.all
     .filter(result => !markers.has(result.id) || !markers.get(result.id)?.marker.getElement().isConnected)
-    .forEach(result => {
+    .forEach(async (result) => {
       try {
-        const marker = new mb.Marker({ scale: .8, }).setLngLat(findLocation(result)).addTo(map);
-        const listener = () => clicked(result, marker);
+        const marker = new mb.Marker({ scale: .8, }).setLngLat(result.place.geometry.location).addTo(map);
+        const listener = () => results.shown = result;
         marker.getElement().addEventListener('click', listener);
         markers.set(result.id, { marker, listener});
-      }
-      catch (e){
+      } catch (e){
         return console.error(e, result);
       }
   })
 
-//   console.log('first', markers.get(results.all[0].id)?.marker.getElement())
   console.log(`Now showing ${results.all.length} results. Got ${loadedIds.length} entries from API, had ${oldIds.length} markers before, removed ${toRemove.length} entries, kept ${keep.length}, added ${newIds.length}.`);
 }
 
@@ -138,24 +133,28 @@ function highlightMarker(id: number, highlight = true) {
 }
 
 let previous: number | undefined;
-results.$subscribe(() => {
-  console.warn('sub', results.shown);
+watchEffect(async () => {
   if (previous) {
     highlightMarker(previous, false);
     previous = undefined;
   }
   if (results.shown) {
+    // const placeId = pickupLocation(results.shown).place_id;
     highlightMarker(results.shown.id);
     previous = results.shown.id;
+    // results.place = await loadGooglePlaceDetails(placeId);
   }
 });
 
-// watchEffect(() => {
-//   console.warn('effect', results.shown);
-//   if (previous) highlightMarker(previous, false);
-//   if (results.shown) highlightMarker(results.shown.id);
-//   previous = results.shown.id;
-// });
+watchEffect(async () => {
+  try {
+    await loadResults(results.boundingBox);
+  } catch(e) {
+    if (e instanceof ExpiredRequest) return console.log('expired');
+    if (e instanceof DuplicatedRequest) return console.log('duplicate');
+    console.warn('Error occured loading results', e);
+  }
+});
 
 </script>
 

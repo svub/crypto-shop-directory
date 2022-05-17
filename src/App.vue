@@ -10,12 +10,14 @@ header
     //- RouterLink.logo(to="/")
     //-   h1 Crypto map
     //- RouterLink(to="/about") About
+footer
+  #placeService
 </template>
 
 <style lang="stylus">
 @import "@/assets/base.css";
 
-body, #app, main, #map
+body, #app, main
     display flex
     flex 1
 
@@ -34,18 +36,5 @@ header
 
     a
       margin-left 1em
-
-main
-  position
-
-  #details
-    position absolute
-    top 0
-    left 0
-    max-width 50%
-    height 100%
-    overflow hidden
-    background rgba(0, 0, 0, .9)
-    flex 1
 
 </style>
