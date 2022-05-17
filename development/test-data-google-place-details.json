@@ -1,0 +1,215 @@
+{
+  "address_components": [
+    {
+      "long_name": "11",
+      "short_name": "11",
+      "types": [
+        "street_number"
+      ]
+    },
+    {
+      "long_name": "Marzon",
+      "short_name": "Marzon",
+      "types": [
+        "route"
+      ]
+    },
+    {
+      "long_name": "Saalfelden am Steinernen Meer",
+      "short_name": "Saalfelden am Steinernen Meer",
+      "types": [
+        "locality",
+        "political"
+      ]
+    },
+    {
+      "long_name": "Zell am See",
+      "short_name": "Zell am See",
+      "types": [
+        "administrative_area_level_2",
+        "political"
+      ]
+    },
+    {
+      "long_name": "Salzburg",
+      "short_name": "Salzburg",
+      "types": [
+        "administrative_area_level_1",
+        "political"
+      ]
+    },
+    {
+      "long_name": "Austria",
+      "short_name": "AT",
+      "types": [
+        "country",
+        "political"
+      ]
+    },
+    {
+      "long_name": "5760",
+      "short_name": "5760",
+      "types": [
+        "postal_code"
+      ]
+    }
+  ],
+  "adr_address": "<span class=\\"street-address\\">Marzon 11</span>, <span class=\\"postal-code\\">5760</span> <span class=\\"locality\\">Saalfelden am Steinernen Meer</span>, <span class=\\"country-name\\">Austria</span>",
+  "business_status": "OPERATIONAL",
+  "formatted_address": "Marzon 11, 5760 Saalfelden am Steinernen Meer, Austria",
+  "formatted_phone_number": "0664 4532982",
+  "geometry": {
+    "location": {
+      "lat": 47.451319,
+      "lng": 12.8331853
+    },
+    "viewport": {
+      "northeast": {
+        "lat": 47.45272013029149,
+        "lng": 12.8347240302915
+      },
+      "southwest": {
+        "lat": 47.45002216970849,
+        "lng": 12.8320260697085
+      }
+    }
+  },
+  "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/shopping-71.png",
+  "icon_background_color": "#4B96F3",
+  "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/shopping_pinlet",
+  "international_phone_number": "+43 664 4532982",
+  "name": "Autohaus Ernst Wadlegger",
+  "opening_hours": {
+    "open_now": false,
+    "periods": [
+      {
+        "close": {
+          "day": 1,
+          "time": "1200"
+        },
+        "open": {
+          "day": 1,
+          "time": "0745"
+        }
+      },
+      {
+        "close": {
+          "day": 1,
+          "time": "1700"
+        },
+        "open": {
+          "day": 1,
+          "time": "1330"
+        }
+      },
+      {
+        "close": {
+          "day": 2,
+          "time": "1200"
+        },
+        "open": {
+          "day": 2,
+          "time": "0745"
+        }
+      },
+      {
+        "close": {
+          "day": 2,
+          "time": "1700"
+        },
+        "open": {
+          "day": 2,
+          "time": "1330"
+        }
+      },
+      {
+        "close": {
+          "day": 3,
+          "time": "1200"
+        },
+        "open": {
+          "day": 3,
+          "time": "0745"
+        }
+      },
+      {
+        "close": {
+          "day": 3,
+          "time": "1700"
+        },
+        "open": {
+          "day": 3,
+          "time": "1330"
+        }
+      },
+      {
+        "close": {
+          "day": 4,
+          "time": "1200"
+        },
+        "open": {
+          "day": 4,
+          "time": "0745"
+        }
+      },
+      {
+        "close": {
+          "day": 4,
+          "time": "1700"
+        },
+        "open": {
+          "day": 4,
+          "time": "1330"
+        }
+      },
+      {
+        "close": {
+          "day": 5,
+          "time": "1200"
+        },
+        "open": {
+          "day": 5,
+          "time": "0745"
+        }
+      },
+      {
+        "close": {
+          "day": 5,
+          "time": "1700"
+        },
+        "open": {
+          "day": 5,
+          "time": "1330"
+        }
+      }
+    ],
+    "weekday_text": [
+      "Monday: 7:45 AM – 12:00 PM, 1:30 – 5:00 PM",
+      "Tuesday: 7:45 AM – 12:00 PM, 1:30 – 5:00 PM",
+      "Wednesday: 7:45 AM – 12:00 PM, 1:30 – 5:00 PM",
+      "Thursday: 7:45 AM – 12:00 PM, 1:30 – 5:00 PM",
+      "Friday: 7:45 AM – 12:00 PM, 1:30 – 5:00 PM",
+      "Saturday: Closed",
+      "Sunday: Closed"
+    ]
+  },
+  "place_id": "ChIJcVjD3Uz7dkcRlZXjZh6_yEc",
+  "plus_code": {
+    "compound_code": "FR2M+G7 Saalfelden, Austria",
+    "global_code": "8FVJFR2M+G7"
+  },
+  "rating": 5,
+  "reference": "ChIJcVjD3Uz7dkcRlZXjZh6_yEc",
+  "reviews": [],
+  "types": [
+    "car_dealer",
+    "car_repair",
+    "point_of_interest",
+    "store",
+    "establishment"
+  ],
+  "url": "https://maps.google.com/?cid=5172594309331129749",
+  "user_ratings_total": 9,
+  "utc_offset": 120,
+  "vicinity": "Marzon 11, Saalfelden am Steinernen Meer"
+}

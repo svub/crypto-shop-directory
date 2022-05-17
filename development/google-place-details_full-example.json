@@ -1,0 +1,264 @@
+{
+  "html_attributions" : [],
+  "result" : {
+     "address_components" : [
+        {
+           "long_name" : "Calle Buenos Aires",
+           "short_name" : "C. Buenos Aires",
+           "types" : [ "route" ]
+        },
+        {
+           "long_name" : "de",
+           "short_name" : "de",
+           "types" : [ "locality", "political" ]
+        },
+        {
+           "long_name" : "Provincia de Puntarenas",
+           "short_name" : "Provincia de Puntarenas",
+           "types" : [ "administrative_area_level_1", "political" ]
+        },
+        {
+           "long_name" : "Costa Rica",
+           "short_name" : "CR",
+           "types" : [ "country", "political" ]
+        }
+     ],
+     "adr_address" : "\u003cspan class=\"street-address\"\u003eC. Buenos Aires\u003c/span\u003e, \u003cspan class=\"region\"\u003eProvincia de Puntarenas\u003c/span\u003e, \u003cspan class=\"locality\"\u003ede\u003c/span\u003e, \u003cspan class=\"country-name\"\u003eCosta Rica\u003c/span\u003e",
+     "business_status" : "OPERATIONAL",
+     "formatted_address" : "C. Buenos Aires, Provincia de Puntarenas, de, Costa Rica",
+     "formatted_phone_number" : "8414 8122",
+     "geometry" : {
+        "location" : {
+           "lat" : 9.631566999999999,
+           "lng" : -85.15327449999999
+        },
+        "viewport" : {
+           "northeast" : {
+              "lat" : 9.632999630291501,
+              "lng" : -85.15198406970849
+           },
+           "southwest" : {
+              "lat" : 9.630301669708496,
+              "lng" : -85.1546820302915
+           }
+        }
+     },
+     "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+     "icon_background_color" : "#FF9E67",
+     "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+     "international_phone_number" : "+506 8414 8122",
+     "name" : "Koji's",
+     "opening_hours" : {
+        "open_now" : true,
+        "periods" : [
+           {
+              "close" : {
+                 "day" : 2,
+                 "time" : "2200"
+              },
+              "open" : {
+                 "day" : 2,
+                 "time" : "1730"
+              }
+           },
+           {
+              "close" : {
+                 "day" : 3,
+                 "time" : "2200"
+              },
+              "open" : {
+                 "day" : 3,
+                 "time" : "1730"
+              }
+           },
+           {
+              "close" : {
+                 "day" : 4,
+                 "time" : "2200"
+              },
+              "open" : {
+                 "day" : 4,
+                 "time" : "1730"
+              }
+           },
+           {
+              "close" : {
+                 "day" : 5,
+                 "time" : "2200"
+              },
+              "open" : {
+                 "day" : 5,
+                 "time" : "1730"
+              }
+           },
+           {
+              "close" : {
+                 "day" : 6,
+                 "time" : "2200"
+              },
+              "open" : {
+                 "day" : 6,
+                 "time" : "1730"
+              }
+           }
+        ],
+        "weekday_text" : [
+           "Monday: Closed",
+           "Tuesday: 5:30 – 10:00 PM",
+           "Wednesday: 5:30 – 10:00 PM",
+           "Thursday: 5:30 – 10:00 PM",
+           "Friday: 5:30 – 10:00 PM",
+           "Saturday: 5:30 – 10:00 PM",
+           "Sunday: Closed"
+        ]
+     },
+     "photos" : [
+        {
+           "height" : 640,
+           "html_attributions" : [
+              "\u003ca href=\"https://maps.google.com/maps/contrib/107621368438530137205\"\u003eKoji&#39;s\u003c/a\u003e"
+           ],
+           "photo_reference" : "Aap_uEBsXG7PfCdIMGH1SihaFwmENKpH5Y2KOQLlquwYUmtqHg8-bsUifvSLleCc_z3VJrNH9ATt4ykUeJ7SOQ5LD37-2uFZieQNyx4x7S2PKwOWJr3rb67aYaGsf-SElXu630ZENwryRRvclNGUYK5B044OwvOUEnAS1aR-kwsoyreMeuWs",
+           "width" : 640
+        },
+        {
+           "height" : 422,
+           "html_attributions" : [
+              "\u003ca href=\"https://maps.google.com/maps/contrib/107621368438530137205\"\u003eKoji&#39;s\u003c/a\u003e"
+           ],
+           "photo_reference" : "Aap_uEA0va5YfDlynwvTgDU8c0Lc8dWOTx360QONvuGpduPRLybfxW-FGPDJ7FG2E8-6NTd0sNu7LkmVaaz6YUVOiaDykaAfoWm_aUdAxV6OQkRYU2NhnyqNTAqIdGeDBzxSvAtfsR9ehZFBk6yYx2FN9xWTVQuFsppUrPfiJ8_wWluVUHS9",
+           "width" : 628
+        },
+        {
+           "height" : 3024,
+           "html_attributions" : [
+              "\u003ca href=\"https://maps.google.com/maps/contrib/101635019145504028046\"\u003eDor Dvir\u003c/a\u003e"
+           ],
+           "photo_reference" : "Aap_uED8nFvBSQlc54eHyyiXJHLZTRiAEMQlGeZLDCPuCNZFmQx8lMq2m6Z4kiaWG6ajVat2T8o5fH00rAxY76nzSo-4IHyLqCS5SOX32vuoov6UnJbfQ4bVjLwUmtRzyixL5hx7sxjJTUffw1UV-Dw81xhoV2LHEYTfVaClVARxr_8xrtFp",
+           "width" : 4032
+        },
+        {
+           "height" : 3024,
+           "html_attributions" : [
+              "\u003ca href=\"https://maps.google.com/maps/contrib/105269373874692378713\"\u003eMegan Carlisle\u003c/a\u003e"
+           ],
+           "photo_reference" : "Aap_uEAIpRrs5GAzGJo1R45j9-B9_RmNxh6pBYBc5QHtAidxu_7tw20GTU8JSAOZ1tfwl5wWlh2Fb46ELXo0ZxNKY7IBd_Y6TRYbMoLSc5udrY5J9OzVBX-W9_1r4Hz7gTH8jatHH3idAUZQtAnu6N_PaLfCzfSeNJpYJ7YRiBFYH5aKJv5F",
+           "width" : 4032
+        },
+        {
+           "height" : 422,
+           "html_attributions" : [
+              "\u003ca href=\"https://maps.google.com/maps/contrib/107621368438530137205\"\u003eKoji&#39;s\u003c/a\u003e"
+           ],
+           "photo_reference" : "Aap_uEA5v8zCVXfhLG0vXJC0Zej6C8nU1-In0vb9sqvPpcy_-idxyMV7Xrd41CcYzitfBlJCpCBrQPMgT46BF6tDeM87aN0JoRyFUTMm34hN92R5a_pSUdXjhp2s4N34VD0hMUDusjgL6xgBdNOrjrqFw01JGJbx5BJB2238pdHSzJmY7LCJ",
+           "width" : 628
+        },
+        {
+           "height" : 3024,
+           "html_attributions" : [
+              "\u003ca href=\"https://maps.google.com/maps/contrib/112769065746797649423\"\u003eJon Torres\u003c/a\u003e"
+           ],
+           "photo_reference" : "Aap_uEDAzUKxuOzOeO0-20sYUxlP_1HB_ONRENa-DmPPWxUGBmHM91egPTq2MhT86k8nUHY13SXrd6q0RcgrSLfpZxDvmX9rJZPLBnF7n_P3hsUPEQqvJVtV_cHc2SGsBw797Sct_fRov5aUuJsKLi2YqDnakBNYUwpgMlpaLwfG4VBd0sZT",
+           "width" : 4032
+        },
+        {
+           "height" : 3024,
+           "html_attributions" : [
+              "\u003ca href=\"https://maps.google.com/maps/contrib/107210732340686623168\"\u003eDong-Ling Chen\u003c/a\u003e"
+           ],
+           "photo_reference" : "Aap_uEAphU1jlELEuA2PlJdoJY5_36gc82eeF8EEFAd6V-Qqrmw1Ymm8aIEWzQ8fOomHPGxT8XGu-GtYmdmZwxy3NGLU2eCqmXTiL1pqBG1FUCpsYxiWD0bVRMWTF94bAENT2oiwR-LKNWang-Zb_MYG53jW7MYf9slwE1sboT_kTWZQpvqP",
+           "width" : 4032
+        },
+        {
+           "height" : 2340,
+           "html_attributions" : [
+              "\u003ca href=\"https://maps.google.com/maps/contrib/101351938471437140717\"\u003eFernando Domezain Fau\u003c/a\u003e"
+           ],
+           "photo_reference" : "Aap_uECAUbWXNWLUDBG0jsg5o3VlhnRahlhbuxD3G2ffZvJBJawt-EWImlY9VDJqs5eQnpYXtMqFWnEACR8ElNOQr47Mc-sYC4u2Mrv6gJvvJxofazjgj7zibQ_uoaChUvKX3fK7uTbE8bjD6IIpnhNeTW2HyoALChLvlP7_nEtA5U_FrH0P",
+           "width" : 4160
+        },
+        {
+           "height" : 3024,
+           "html_attributions" : [
+              "\u003ca href=\"https://maps.google.com/maps/contrib/107210732340686623168\"\u003eDong-Ling Chen\u003c/a\u003e"
+           ],
+           "photo_reference" : "Aap_uEB7aTaPBIJyT2Oi-pC_xGY6QGbe2jNO7AI1T64FkuFFH5u8fBOzs5RWnpg3UntHfYS4_CmWeepExzjMpYcvSzfzgNV6AhHPpxzYppmQnHlnMsw6UzDptzdSgI8019fQZJMQXSFi4GgHW4JkrI5E-NPtw7GIvEXCn4wnBpCNWiaABEgy",
+           "width" : 4032
+        },
+        {
+           "height" : 2340,
+           "html_attributions" : [
+              "\u003ca href=\"https://maps.google.com/maps/contrib/101351938471437140717\"\u003eFernando Domezain Fau\u003c/a\u003e"
+           ],
+           "photo_reference" : "Aap_uECH__59QPGR-zasMhyCZvssqfSWWDSAwwpU8c-lWM5h8R4_4dik-iEPw8OxP-Q5oB9mQVGzUJtWDIg575kTiIEk4lRYNJuUlE4PTTmu-25CtKPgV--pFnt_kHYnqQ5FbIFG-rOjeYEGR4VQ6LcfA7XZkoZIT9lDxje4bq-DOc1q6FBp",
+           "width" : 4160
+        }
+     ],
+     "place_id" : "ChIJ12TPhORun48RkF8_G5t8vec",
+     "plus_code" : {
+        "compound_code" : "JRJW+JM Carmen, Provincia de Puntarenas, Costa Rica",
+        "global_code" : "66XPJRJW+JM"
+     },
+     "rating" : 4.2,
+     "reference" : "ChIJ12TPhORun48RkF8_G5t8vec",
+     "reviews" : [
+        {
+           "author_name" : "Chuckaaa",
+           "author_url" : "https://www.google.com/maps/contrib/112659657091978097096/reviews",
+           "language" : "en",
+           "profile_photo_url" : "https://lh3.googleusercontent.com/a/AATXAJxWWT9we8GhUElzaxW6-prv6ze95bq4UKbK6Cx9=s128-c0x00000000-cc-rp-mo",
+           "rating" : 3,
+           "relative_time_description" : "2 months ago",
+           "text" : "The food was good nothing to say about it, nothing amazing though. The price was very high for what it is, over hyped up place. The service wasn’t on point for the price, at that price point I expect a way higher standard. For half of the price you have another restaurant with the same type of food 100 meters down, which is way better.\nConclusion, it’s a good restaurant for sure, but really not worth the price.",
+           "time" : 1643163834
+        },
+        {
+           "author_name" : "Kristine Copley",
+           "author_url" : "https://www.google.com/maps/contrib/104241487165226883396/reviews",
+           "language" : "en",
+           "profile_photo_url" : "https://lh3.googleusercontent.com/a/AATXAJy_V5gzNY-v3qYxTx9b1M2vg1LS6LQ3FtLHg4mF=s128-c0x00000000-cc-rp-mo",
+           "rating" : 5,
+           "relative_time_description" : "a month ago",
+           "text" : "Although we didn’t get a glimpse the GOAT and G, we still had a fabulous meal. Beautiful place, delicious food, great service!!  Order the sashimi sampler to decide what you want next.\n\nService at many/most local restaurants is really slow, but not here!",
+           "time" : 1645983640
+        },
+        {
+           "author_name" : "Mimi Adeogba",
+           "author_url" : "https://www.google.com/maps/contrib/109947973573307760156/reviews",
+           "language" : "en",
+           "profile_photo_url" : "https://lh3.googleusercontent.com/a-/AOh14GhAZ8-AuX5gtlrOVeVb04BbpD38suvFLLrnxeSg=s128-c0x00000000-cc-rp-mo-ba2",
+           "rating" : 5,
+           "relative_time_description" : "3 months ago",
+           "text" : "Loved this restaurant. I had the tuna roll (spicy with sesame seeds). It was amazing. And the ambiance was the perfect setting for date night with the family.",
+           "time" : 1640615283
+        },
+        {
+           "author_name" : "Michael Terlecki",
+           "author_url" : "https://www.google.com/maps/contrib/116629410585799537853/reviews",
+           "language" : "en",
+           "profile_photo_url" : "https://lh3.googleusercontent.com/a/AATXAJxgvG7O_VOD1eEnaau6p2hZNuS0dcBNkB-HppdL=s128-c0x00000000-cc-rp-mo",
+           "rating" : 5,
+           "relative_time_description" : "2 months ago",
+           "text" : "By far the best quality sushi in Santa Teresa!!\nSo many beautiful flavors can’t express how good it was treat yourself Niko our server was top!! Ambiance and music great!!!",
+           "time" : 1642907446
+        },
+        {
+           "author_name" : "St L",
+           "author_url" : "https://www.google.com/maps/contrib/108703813447485311226/reviews",
+           "language" : "en",
+           "profile_photo_url" : "https://lh3.googleusercontent.com/a-/AOh14Gg__eLtQJSwmszJmle1Ki8KN_T-eO_giEeocrh7kg=s128-c0x00000000-cc-rp-mo-ba5",
+           "rating" : 5,
+           "relative_time_description" : "2 months ago",
+           "text" : "Loves the Koji roll. Amazing service. Vegetarian friendly. Dog friendly 😊",
+           "time" : 1643373099
+        }
+     ],
+     "types" : [ "restaurant", "food", "point_of_interest", "establishment" ],
+     "url" : "https://maps.google.com/?cid=16698639998978580368",
+     "user_ratings_total" : 172,
+     "utc_offset" : -360,
+     "vicinity" : "Calle Buenos Aires, de",
+     "website" : "https://www.instagram.com/kojisrestaurant/"
+  },
+  "status" : "OK"
+}

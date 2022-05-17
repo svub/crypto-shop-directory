@@ -1,0 +1,987 @@
+{
+  "current_page": 1,
+  "data": [
+    {
+      "id": 209,
+      "label": "G\u00fcnther Lodjn",
+      "description": "",
+      "website": null,
+      "email": "landcafe.thenneberg@a1.net",
+      "phone": null,
+      "zip": "2761",
+      "city": "Waidmannsfeld",
+      "country": "",
+      "digital_goods": false,
+      "created_at": "2022-03-08T22:44:07.000000Z",
+      "updated_at": "2022-05-09T19:34:23.000000Z",
+      "address_line_1": "Kirchbergstra\u00dfe 3,,",
+      "address_line_2": null,
+      "address_line_3": null,
+      "accepts": [
+        "Bitcoin",
+        "Dash",
+        "Litecoin",
+        "Ethereum",
+        "Ripple",
+        "Stellar",
+        "Nimiq"
+      ],
+      "pickups": [
+        {
+          "id": 4230,
+          "shop_id": 209,
+          "geo_location": {
+            "type": "Point",
+            "coordinates": [
+              15.978731,
+              47.868534
+            ]
+          },
+          "created_at": "2022-05-09T19:34:23.000000Z",
+          "updated_at": "2022-05-09T19:34:23.000000Z",
+          "place_id": "ChIJBYXsxhfBbUcRLSacFt36DxU",
+          "label": null,
+          "place_information": "{\"address_components\":[{\"long_name\":\"3\",\"short_name\":\"3\",\"types\":[\"street_number\"]},{\"long_name\":\"Kirchbergstra\\u00dfe\",\"short_name\":\"Kirchbergstra\\u00dfe\",\"types\":[\"route\"]},{\"long_name\":\"Waidmannsfeld\",\"short_name\":\"Waidmannsfeld\",\"types\":[\"locality\",\"political\"]},{\"long_name\":\"Wiener Neustadt-Land\",\"short_name\":\"Wiener Neustadt-Land\",\"types\":[\"administrative_area_level_2\",\"political\"]},{\"long_name\":\"Nieder\\u00f6sterreich\",\"short_name\":\"Nieder\\u00f6sterreich\",\"types\":[\"administrative_area_level_1\",\"political\"]},{\"long_name\":\"Austria\",\"short_name\":\"AT\",\"types\":[\"country\",\"political\"]},{\"long_name\":\"2761\",\"short_name\":\"2761\",\"types\":[\"postal_code\"]}],\"adr_address\":\"<span class=\\\"street-address\\\">Kirchbergstra\\u00dfe 3<\\\/span>, <span class=\\\"postal-code\\\">2761<\\\/span> <span class=\\\"locality\\\">Waidmannsfeld<\\\/span>, <span class=\\\"country-name\\\">Austria<\\\/span>\",\"formatted_address\":\"Kirchbergstra\\u00dfe 3, 2761 Waidmannsfeld, Austria\",\"geometry\":{\"location\":{\"lat\":47.8685339,\"lng\":15.9787308},\"viewport\":{\"northeast\":{\"lat\":47.8699725802915,\"lng\":15.9801135802915},\"southwest\":{\"lat\":47.8672746197085,\"lng\":15.9774156197085}}},\"icon\":\"https:\\\/\\\/maps.gstatic.com\\\/mapfiles\\\/place_api\\\/icons\\\/v1\\\/png_71\\\/geocode-71.png\",\"icon_background_color\":\"#7B9EB0\",\"icon_mask_base_uri\":\"https:\\\/\\\/maps.gstatic.com\\\/mapfiles\\\/place_api\\\/icons\\\/v2\\\/generic_pinlet\",\"name\":\"Kirchbergstra\\u00dfe 3\",\"place_id\":\"ChIJBYXsxhfBbUcRLSacFt36DxU\",\"plus_code\":{\"compound_code\":\"VX9H+CF Waidmannsfeld, Austria\",\"global_code\":\"8FVQVX9H+CF\"},\"reference\":\"ChIJBYXsxhfBbUcRLSacFt36DxU\",\"types\":[\"street_address\"],\"url\":\"https:\\\/\\\/maps.google.com\\\/?q=Kirchbergstra%C3%9Fe+3,+2761+Waidmannsfeld,+Austria&ftid=0x476dc117c6ec8505:0x150ffadd169c262d\",\"utc_offset\":120,\"vicinity\":\"Waidmannsfeld\",\"reviews\":[]}"
+        }
+      ],
+      "shippings": []
+    },
+    {
+      "id": 139,
+      "label": "Roman Bruckner",
+      "description": "",
+      "website": null,
+      "email": "fliesenparadies.bruckner@gmx.at",
+      "phone": null,
+      "zip": "3270",
+      "city": "Scheibbs",
+      "country": "AT",
+      "digital_goods": false,
+      "created_at": "2022-03-08T22:44:07.000000Z",
+      "updated_at": "2022-05-09T19:32:41.000000Z",
+      "address_line_1": "Gaminger Stra\u00dfe 27,,",
+      "address_line_2": null,
+      "address_line_3": null,
+      "accepts": [
+        "Bitcoin",
+        "Dash",
+        "Litecoin",
+        "Ethereum",
+        "Ripple",
+        "Stellar",
+        "Nimiq"
+      ],
+      "pickups": [
+        {
+          "id": 4090,
+          "shop_id": 139,
+          "geo_location": {
+            "type": "Point",
+            "coordinates": [
+              15.166832,
+              48.003707
+            ]
+          },
+          "created_at": "2022-05-09T19:34:03.000000Z",
+          "updated_at": "2022-05-09T19:34:03.000000Z",
+          "place_id": "ChIJGYcSEJAUckcRlTHprxhMeoQ",
+          "label": null,
+          "place_information": "{\"address_components\":[{\"long_name\":\"27\",\"short_name\":\"27\",\"types\":[\"street_number\"]},{\"long_name\":\"Gaminger Stra\\u00dfe\",\"short_name\":\"Gaminger Str.\",\"types\":[\"route\"]},{\"long_name\":\"Scheibbs\",\"short_name\":\"Scheibbs\",\"types\":[\"locality\",\"political\"]},{\"long_name\":\"Scheibbs\",\"short_name\":\"Scheibbs\",\"types\":[\"administrative_area_level_2\",\"political\"]},{\"long_name\":\"Nieder\\u00f6sterreich\",\"short_name\":\"Nieder\\u00f6sterreich\",\"types\":[\"administrative_area_level_1\",\"political\"]},{\"long_name\":\"Austria\",\"short_name\":\"AT\",\"types\":[\"country\",\"political\"]},{\"long_name\":\"3270\",\"short_name\":\"3270\",\"types\":[\"postal_code\"]}],\"adr_address\":\"<span class=\\\"street-address\\\">Gaminger Str. 27<\\\/span>, <span class=\\\"postal-code\\\">3270<\\\/span> <span class=\\\"locality\\\">Scheibbs<\\\/span>, <span class=\\\"country-name\\\">Austria<\\\/span>\",\"formatted_address\":\"Gaminger Str. 27, 3270 Scheibbs, Austria\",\"geometry\":{\"location\":{\"lat\":48.00370650000001,\"lng\":15.1668316},\"viewport\":{\"northeast\":{\"lat\":48.0050557302915,\"lng\":15.1681425802915},\"southwest\":{\"lat\":48.0023577697085,\"lng\":15.1654446197085}}},\"icon\":\"https:\\\/\\\/maps.gstatic.com\\\/mapfiles\\\/place_api\\\/icons\\\/v1\\\/png_71\\\/geocode-71.png\",\"icon_background_color\":\"#7B9EB0\",\"icon_mask_base_uri\":\"https:\\\/\\\/maps.gstatic.com\\\/mapfiles\\\/place_api\\\/icons\\\/v2\\\/generic_pinlet\",\"name\":\"Gaminger Str. 27\",\"place_id\":\"ChIJGYcSEJAUckcRlTHprxhMeoQ\",\"plus_code\":{\"compound_code\":\"2538+FP Scheibbs, Austria\",\"global_code\":\"8FWQ2538+FP\"},\"reference\":\"ChIJGYcSEJAUckcRlTHprxhMeoQ\",\"types\":[\"street_address\"],\"url\":\"https:\\\/\\\/maps.google.com\\\/?q=Gaminger+Str.+27,+3270+Scheibbs,+Austria&ftid=0x4772149010128719:0x847a4c18afe93195\",\"utc_offset\":120,\"vicinity\":\"Scheibbs\",\"reviews\":[]}"
+        }
+      ],
+      "shippings": []
+    },
+    {
+      "id": 140,
+      "label": "Autohaus Ernst Wadlegger GmbH",
+      "description": "",
+      "website": null,
+      "email": "office@kfz-wadlegger.at",
+      "phone": null,
+      "zip": "5760",
+      "city": "Saalfelden",
+      "country": "AT",
+      "digital_goods": false,
+      "created_at": "2022-03-08T22:44:07.000000Z",
+      "updated_at": "2022-05-09T19:32:41.000000Z",
+      "address_line_1": "Marzon 11,,",
+      "address_line_2": null,
+      "address_line_3": null,
+      "accepts": [
+        "Bitcoin",
+        "Dash",
+        "Litecoin",
+        "Ethereum",
+        "Ripple",
+        "Stellar",
+        "Nimiq"
+      ],
+      "pickups": [
+        {
+          "id": 4092,
+          "shop_id": 140,
+          "geo_location": {
+            "type": "Point",
+            "coordinates": [
+              12.833185,
+              47.451319
+            ]
+          },
+          "created_at": "2022-05-09T19:34:03.000000Z",
+          "updated_at": "2022-05-09T19:34:03.000000Z",
+          "place_id": "ChIJcVjD3Uz7dkcRlZXjZh6_yEc",
+          "label": null,
+          "place_information": "{\"address_components\":[{\"long_name\":\"11\",\"short_name\":\"11\",\"types\":[\"street_number\"]},{\"long_name\":\"Marzon\",\"short_name\":\"Marzon\",\"types\":[\"route\"]},{\"long_name\":\"Saalfelden am Steinernen Meer\",\"short_name\":\"Saalfelden am Steinernen Meer\",\"types\":[\"locality\",\"political\"]},{\"long_name\":\"Zell am See\",\"short_name\":\"Zell am See\",\"types\":[\"administrative_area_level_2\",\"political\"]},{\"long_name\":\"Salzburg\",\"short_name\":\"Salzburg\",\"types\":[\"administrative_area_level_1\",\"political\"]},{\"long_name\":\"Austria\",\"short_name\":\"AT\",\"types\":[\"country\",\"political\"]},{\"long_name\":\"5760\",\"short_name\":\"5760\",\"types\":[\"postal_code\"]}],\"adr_address\":\"<span class=\\\"street-address\\\">Marzon 11<\\\/span>, <span class=\\\"postal-code\\\">5760<\\\/span> <span class=\\\"locality\\\">Saalfelden am Steinernen Meer<\\\/span>, <span class=\\\"country-name\\\">Austria<\\\/span>\",\"business_status\":\"OPERATIONAL\",\"formatted_address\":\"Marzon 11, 5760 Saalfelden am Steinernen Meer, Austria\",\"formatted_phone_number\":\"0664 4532982\",\"geometry\":{\"location\":{\"lat\":47.451319,\"lng\":12.8331853},\"viewport\":{\"northeast\":{\"lat\":47.45272013029149,\"lng\":12.8347240302915},\"southwest\":{\"lat\":47.45002216970849,\"lng\":12.8320260697085}}},\"icon\":\"https:\\\/\\\/maps.gstatic.com\\\/mapfiles\\\/place_api\\\/icons\\\/v1\\\/png_71\\\/shopping-71.png\",\"icon_background_color\":\"#4B96F3\",\"icon_mask_base_uri\":\"https:\\\/\\\/maps.gstatic.com\\\/mapfiles\\\/place_api\\\/icons\\\/v2\\\/shopping_pinlet\",\"international_phone_number\":\"+43 664 4532982\",\"name\":\"Autohaus Ernst Wadlegger\",\"opening_hours\":{\"open_now\":false,\"periods\":[{\"close\":{\"day\":1,\"time\":\"1200\"},\"open\":{\"day\":1,\"time\":\"0745\"}},{\"close\":{\"day\":1,\"time\":\"1700\"},\"open\":{\"day\":1,\"time\":\"1330\"}},{\"close\":{\"day\":2,\"time\":\"1200\"},\"open\":{\"day\":2,\"time\":\"0745\"}},{\"close\":{\"day\":2,\"time\":\"1700\"},\"open\":{\"day\":2,\"time\":\"1330\"}},{\"close\":{\"day\":3,\"time\":\"1200\"},\"open\":{\"day\":3,\"time\":\"0745\"}},{\"close\":{\"day\":3,\"time\":\"1700\"},\"open\":{\"day\":3,\"time\":\"1330\"}},{\"close\":{\"day\":4,\"time\":\"1200\"},\"open\":{\"day\":4,\"time\":\"0745\"}},{\"close\":{\"day\":4,\"time\":\"1700\"},\"open\":{\"day\":4,\"time\":\"1330\"}},{\"close\":{\"day\":5,\"time\":\"1200\"},\"open\":{\"day\":5,\"time\":\"0745\"}},{\"close\":{\"day\":5,\"time\":\"1700\"},\"open\":{\"day\":5,\"time\":\"1330\"}}],\"weekday_text\":[\"Monday: 7:45 AM \\u2013 12:00 PM, 1:30 \\u2013 5:00 PM\",\"Tuesday: 7:45 AM \\u2013 12:00 PM, 1:30 \\u2013 5:00 PM\",\"Wednesday: 7:45 AM \\u2013 12:00 PM, 1:30 \\u2013 5:00 PM\",\"Thursday: 7:45 AM \\u2013 12:00 PM, 1:30 \\u2013 5:00 PM\",\"Friday: 7:45 AM \\u2013 12:00 PM, 1:30 \\u2013 5:00 PM\",\"Saturday: Closed\",\"Sunday: Closed\"]},\"place_id\":\"ChIJcVjD3Uz7dkcRlZXjZh6_yEc\",\"plus_code\":{\"compound_code\":\"FR2M+G7 Saalfelden, Austria\",\"global_code\":\"8FVJFR2M+G7\"},\"rating\":5,\"reference\":\"ChIJcVjD3Uz7dkcRlZXjZh6_yEc\",\"reviews\":[],\"types\":[\"car_dealer\",\"car_repair\",\"point_of_interest\",\"store\",\"establishment\"],\"url\":\"https:\\\/\\\/maps.google.com\\\/?cid=5172594309331129749\",\"user_ratings_total\":9,\"utc_offset\":120,\"vicinity\":\"Marzon 11, Saalfelden am Steinernen Meer\"}"
+        }
+      ],
+      "shippings": []
+    },
+    {
+      "id": 141,
+      "label": "Xiaoling Liu",
+      "description": "",
+      "website": null,
+      "email": "office@healthyvienna.com",
+      "phone": null,
+      "zip": "1010",
+      "city": "Wien",
+      "country": "AT",
+      "digital_goods": false,
+      "created_at": "2022-03-08T22:44:07.000000Z",
+      "updated_at": "2022-05-09T19:32:42.000000Z",
+      "address_line_1": "Tuchlauben 18\/14,,",
+      "address_line_2": null,
+      "address_line_3": null,
+      "accepts": [
+        "Bitcoin",
+        "Dash",
+        "Litecoin",
+        "Ethereum",
+        "Ripple",
+        "Stellar",
+        "Nimiq"
+      ],
+      "pickups": [
+        {
+          "id": 4094,
+          "shop_id": 141,
+          "geo_location": {
+            "type": "Point",
+            "coordinates": [
+              16.371605,
+              48.210527
+            ]
+          },
+          "created_at": "2022-05-09T19:34:04.000000Z",
+          "updated_at": "2022-05-09T19:34:04.000000Z",
+          "place_id": "EiRUdWNobGF1YmVuIDE4LzE0LCAxMDEwIFdpZW4sIEF1c3RyaWEiHhocChYKFAoSCZf3JAmiB21HEYt0AtM6BLWVEgIxNA",
+          "label": null,
+          "place_information": "{\"address_components\":[{\"long_name\":\"14\",\"short_name\":\"14\",\"types\":[\"subpremise\"]},{\"long_name\":\"18\",\"short_name\":\"18\",\"types\":[\"street_number\"]},{\"long_name\":\"Tuchlauben\",\"short_name\":\"Tuchlauben\",\"types\":[\"route\"]},{\"long_name\":\"Innere Stadt\",\"short_name\":\"Innere Stadt\",\"types\":[\"sublocality_level_1\",\"sublocality\",\"political\"]},{\"long_name\":\"Wien\",\"short_name\":\"Wien\",\"types\":[\"locality\",\"political\"]},{\"long_name\":\"Wien\",\"short_name\":\"Wien\",\"types\":[\"administrative_area_level_2\",\"political\"]},{\"long_name\":\"Wien\",\"short_name\":\"Wien\",\"types\":[\"administrative_area_level_1\",\"political\"]},{\"long_name\":\"Austria\",\"short_name\":\"AT\",\"types\":[\"country\",\"political\"]},{\"long_name\":\"1010\",\"short_name\":\"1010\",\"types\":[\"postal_code\"]}],\"adr_address\":\"<span class=\\\"street-address\\\">Tuchlauben 18<\\\/span>\\\/14, <span class=\\\"region\\\">Innere Stadt<\\\/span> <span class=\\\"postal-code\\\">1010<\\\/span> <span class=\\\"locality\\\">Wien<\\\/span>, <span class=\\\"country-name\\\">Austria<\\\/span>\",\"formatted_address\":\"Tuchlauben 18\\\/14, 1010 Wien, Austria\",\"geometry\":{\"location\":{\"lat\":48.2105272,\"lng\":16.3716049},\"viewport\":{\"northeast\":{\"lat\":48.2119795302915,\"lng\":16.37279348029151},\"southwest\":{\"lat\":48.2092815697085,\"lng\":16.3700955197085}}},\"icon\":\"https:\\\/\\\/maps.gstatic.com\\\/mapfiles\\\/place_api\\\/icons\\\/v1\\\/png_71\\\/geocode-71.png\",\"icon_background_color\":\"#7B9EB0\",\"icon_mask_base_uri\":\"https:\\\/\\\/maps.gstatic.com\\\/mapfiles\\\/place_api\\\/icons\\\/v2\\\/generic_pinlet\",\"name\":\"Tuchlauben 18\\\/14\",\"place_id\":\"EiRUdWNobGF1YmVuIDE4LzE0LCAxMDEwIFdpZW4sIEF1c3RyaWEiHhocChYKFAoSCZf3JAmiB21HEYt0AtM6BLWVEgIxNA\",\"reference\":\"EiRUdWNobGF1YmVuIDE4LzE0LCAxMDEwIFdpZW4sIEF1c3RyaWEiHhocChYKFAoSCZf3JAmiB21HEYt0AtM6BLWVEgIxNA\",\"types\":[\"subpremise\"],\"url\":\"https:\\\/\\\/maps.google.com\\\/?q=Tuchlauben+18\\\/14,+1010+Wien,+Austria&ftid=0x476d07a20924f797:0x898a2290b1310d29\",\"utc_offset\":120,\"vicinity\":\"Innere Stadt\",\"reviews\":[]}"
+        }
+      ],
+      "shippings": []
+    },
+    {
+      "id": 142,
+      "label": "Martin Steirer",
+      "description": "",
+      "website": null,
+      "email": "Blockchainbrothersbb@gmail.com",
+      "phone": null,
+      "zip": "4600",
+      "city": "Wels",
+      "country": "AT",
+      "digital_goods": false,
+      "created_at": "2022-03-08T22:44:07.000000Z",
+      "updated_at": "2022-05-09T19:32:42.000000Z",
+      "address_line_1": "Oberfeldstra\u00dfe 54,,",
+      "address_line_2": null,
+      "address_line_3": null,
+      "accepts": [
+        "Bitcoin",
+        "Dash",
+        "Litecoin",
+        "Ethereum",
+        "Ripple",
+        "Stellar",
+        "Nimiq"
+      ],
+      "pickups": [
+        {
+          "id": 4096,
+          "shop_id": 142,
+          "geo_location": {
+            "type": "Point",
+            "coordinates": [
+              14.003783,
+              48.174891
+            ]
+          },
+          "created_at": "2022-05-09T19:34:04.000000Z",
+          "updated_at": "2022-05-09T19:34:04.000000Z",
+          "place_id": "ChIJkaqSO9Dyc0cR8UmOHZykCtc",
+          "label": null,
+          "place_information": "{\"address_components\":[{\"long_name\":\"54\",\"short_name\":\"54\",\"types\":[\"street_number\"]},{\"long_name\":\"Oberfeldstra\\u00dfe\",\"short_name\":\"Oberfeldstra\\u00dfe\",\"types\":[\"route\"]},{\"long_name\":\"Wels\",\"short_name\":\"Wels\",\"types\":[\"locality\",\"political\"]},{\"long_name\":\"Wels\",\"short_name\":\"Wels\",\"types\":[\"administrative_area_level_2\",\"political\"]},{\"long_name\":\"Ober\\u00f6sterreich\",\"short_name\":\"Ober\\u00f6sterreich\",\"types\":[\"administrative_area_level_1\",\"political\"]},{\"long_name\":\"Austria\",\"short_name\":\"AT\",\"types\":[\"country\",\"political\"]},{\"long_name\":\"4600\",\"short_name\":\"4600\",\"types\":[\"postal_code\"]}],\"adr_address\":\"<span class=\\\"street-address\\\">Oberfeldstra\\u00dfe 54<\\\/span>, <span class=\\\"postal-code\\\">4600<\\\/span> <span class=\\\"locality\\\">Wels<\\\/span>, <span class=\\\"country-name\\\">Austria<\\\/span>\",\"formatted_address\":\"Oberfeldstra\\u00dfe 54, 4600 Wels, Austria\",\"geometry\":{\"location\":{\"lat\":48.1748912,\"lng\":14.0037826},\"viewport\":{\"northeast\":{\"lat\":48.1765205302915,\"lng\":14.0049671802915},\"southwest\":{\"lat\":48.17382256970851,\"lng\":14.0022692197085}}},\"icon\":\"https:\\\/\\\/maps.gstatic.com\\\/mapfiles\\\/place_api\\\/icons\\\/v1\\\/png_71\\\/geocode-71.png\",\"icon_background_color\":\"#7B9EB0\",\"icon_mask_base_uri\":\"https:\\\/\\\/maps.gstatic.com\\\/mapfiles\\\/place_api\\\/icons\\\/v2\\\/generic_pinlet\",\"name\":\"Oberfeldstra\\u00dfe 54\",\"place_id\":\"ChIJkaqSO9Dyc0cR8UmOHZykCtc\",\"reference\":\"ChIJkaqSO9Dyc0cR8UmOHZykCtc\",\"types\":[\"premise\"],\"url\":\"https:\\\/\\\/maps.google.com\\\/?q=Oberfeldstra%C3%9Fe+54,+4600+Wels,+Austria&ftid=0x4773f2d03b92aa91:0xd70aa49c1d8e49f1\",\"utc_offset\":120,\"vicinity\":\"Wels\",\"reviews\":[]}"
+        }
+      ],
+      "shippings": []
+    },
+    {
+      "id": 143,
+      "label": "Andreas Sch\u00f6nherr",
+      "description": "",
+      "website": null,
+      "email": "andreas.schoenherr@gmx.at",
+      "phone": null,
+      "zip": "4407",
+      "city": "Steyr",
+      "country": "AT",
+      "digital_goods": false,
+      "created_at": "2022-03-08T22:44:07.000000Z",
+      "updated_at": "2022-05-09T19:32:42.000000Z",
+      "address_line_1": "Gleinker Hauptstra\u00dfe 3 b,,",
+      "address_line_2": null,
+      "address_line_3": null,
+      "accepts": [
+        "Bitcoin",
+        "Dash",
+        "Litecoin",
+        "Ethereum",
+        "Ripple",
+        "Stellar",
+        "Nimiq"
+      ],
+      "pickups": [
+        {
+          "id": 4098,
+          "shop_id": 143,
+          "geo_location": {
+            "type": "Point",
+            "coordinates": [
+              14.416745,
+              48.066457
+            ]
+          },
+          "created_at": "2022-05-09T19:34:04.000000Z",
+          "updated_at": "2022-05-09T19:34:04.000000Z",
+          "place_id": "ChIJCRLI1hbGc0cR6IiFFkxuNdo",
+          "label": null,
+          "place_information": "{\"address_components\":[{\"long_name\":\"3b\",\"short_name\":\"3b\",\"types\":[\"street_number\"]},{\"long_name\":\"Gleinker Hauptstra\\u00dfe\",\"short_name\":\"Gleinker Hauptstra\\u00dfe\",\"types\":[\"route\"]},{\"long_name\":\"Steyr\",\"short_name\":\"Steyr\",\"types\":[\"locality\",\"political\"]},{\"long_name\":\"Steyr\",\"short_name\":\"Steyr\",\"types\":[\"administrative_area_level_2\",\"political\"]},{\"long_name\":\"Ober\\u00f6sterreich\",\"short_name\":\"Ober\\u00f6sterreich\",\"types\":[\"administrative_area_level_1\",\"political\"]},{\"long_name\":\"Austria\",\"short_name\":\"AT\",\"types\":[\"country\",\"political\"]},{\"long_name\":\"4407\",\"short_name\":\"4407\",\"types\":[\"postal_code\"]}],\"adr_address\":\"<span class=\\\"street-address\\\">Gleinker Hauptstra\\u00dfe 3b<\\\/span>, <span class=\\\"postal-code\\\">4407<\\\/span> <span class=\\\"locality\\\">Steyr<\\\/span>, <span class=\\\"country-name\\\">Austria<\\\/span>\",\"formatted_address\":\"Gleinker Hauptstra\\u00dfe 3b, 4407 Steyr, Austria\",\"geometry\":{\"location\":{\"lat\":48.0664568,\"lng\":14.4167455},\"viewport\":{\"northeast\":{\"lat\":48.06830533029149,\"lng\":14.4182087302915},\"southwest\":{\"lat\":48.0656073697085,\"lng\":14.4155107697085}}},\"icon\":\"https:\\\/\\\/maps.gstatic.com\\\/mapfiles\\\/place_api\\\/icons\\\/v1\\\/png_71\\\/geocode-71.png\",\"icon_background_color\":\"#7B9EB0\",\"icon_mask_base_uri\":\"https:\\\/\\\/maps.gstatic.com\\\/mapfiles\\\/place_api\\\/icons\\\/v2\\\/generic_pinlet\",\"name\":\"Gleinker Hauptstra\\u00dfe 3b\",\"place_id\":\"ChIJCRLI1hbGc0cR6IiFFkxuNdo\",\"plus_code\":{\"compound_code\":\"3C88+HM Steyr, Austria\",\"global_code\":\"8FWP3C88+HM\"},\"reference\":\"ChIJCRLI1hbGc0cR6IiFFkxuNdo\",\"types\":[\"street_address\"],\"url\":\"https:\\\/\\\/maps.google.com\\\/?q=Gleinker+Hauptstra%C3%9Fe+3b,+4407+Steyr,+Austria&ftid=0x4773c616d6c81209:0xda356e4c168588e8\",\"utc_offset\":120,\"vicinity\":\"Steyr\",\"reviews\":[]}"
+        }
+      ],
+      "shippings": []
+    },
+    {
+      "id": 181,
+      "label": "Kevin Kristoffer Kermautz - Smartphone Werkstatt",
+      "description": "",
+      "website": null,
+      "email": "office@smartphone-werkstatt.at",
+      "phone": null,
+      "zip": "8430",
+      "city": "Leibnitz",
+      "country": "AT",
+      "digital_goods": false,
+      "created_at": "2022-03-08T22:44:07.000000Z",
+      "updated_at": "2022-05-09T19:32:59.000000Z",
+      "address_line_1": "Schmiedgasse 4,,",
+      "address_line_2": null,
+      "address_line_3": null,
+      "accepts": [
+        "Bitcoin",
+        "Dash",
+        "Litecoin",
+        "Ethereum",
+        "Ripple",
+        "Stellar",
+        "Nimiq"
+      ],
+      "pickups": [
+        {
+          "id": 4174,
+          "shop_id": 181,
+          "geo_location": {
+            "type": "Point",
+            "coordinates": [
+              15.53873,
+              46.780754
+            ]
+          },
+          "created_at": "2022-05-09T19:34:15.000000Z",
+          "updated_at": "2022-05-09T19:34:15.000000Z",
+          "place_id": "ChIJq51KxICvb0cRm067U-H8n7w",
+          "label": null,
+          "place_information": "{\"address_components\":[{\"long_name\":\"4\",\"short_name\":\"4\",\"types\":[\"street_number\"]},{\"long_name\":\"Schmiedgasse\",\"short_name\":\"Schmiedgasse\",\"types\":[\"route\"]},{\"long_name\":\"Leibnitz\",\"short_name\":\"Leibnitz\",\"types\":[\"locality\",\"political\"]},{\"long_name\":\"Leibnitz\",\"short_name\":\"Leibnitz\",\"types\":[\"administrative_area_level_2\",\"political\"]},{\"long_name\":\"Steiermark\",\"short_name\":\"Steiermark\",\"types\":[\"administrative_area_level_1\",\"political\"]},{\"long_name\":\"Austria\",\"short_name\":\"AT\",\"types\":[\"country\",\"political\"]},{\"long_name\":\"8430\",\"short_name\":\"8430\",\"types\":[\"postal_code\"]}],\"adr_address\":\"<span class=\\\"street-address\\\">Schmiedgasse 4<\\\/span>, <span class=\\\"postal-code\\\">8430<\\\/span> <span class=\\\"locality\\\">Leibnitz<\\\/span>, <span class=\\\"country-name\\\">Austria<\\\/span>\",\"business_status\":\"OPERATIONAL\",\"formatted_address\":\"Schmiedgasse 4, 8430 Leibnitz, Austria\",\"formatted_phone_number\":\"0664 5452112\",\"geometry\":{\"location\":{\"lat\":46.78075399999999,\"lng\":15.5387301},\"viewport\":{\"northeast\":{\"lat\":46.78212583029149,\"lng\":15.5401353802915},\"southwest\":{\"lat\":46.77942786970849,\"lng\":15.53743741970849}}},\"icon\":\"https:\\\/\\\/maps.gstatic.com\\\/mapfiles\\\/place_api\\\/icons\\\/v1\\\/png_71\\\/generic_business-71.png\",\"icon_background_color\":\"#7B9EB0\",\"icon_mask_base_uri\":\"https:\\\/\\\/maps.gstatic.com\\\/mapfiles\\\/place_api\\\/icons\\\/v2\\\/generic_pinlet\",\"international_phone_number\":\"+43 664 5452112\",\"name\":\"Smartphone Werkstatt\",\"opening_hours\":{\"open_now\":false,\"periods\":[{\"close\":{\"day\":1,\"time\":\"1300\"},\"open\":{\"day\":1,\"time\":\"0900\"}},{\"close\":{\"day\":1,\"time\":\"1700\"},\"open\":{\"day\":1,\"time\":\"1400\"}},{\"close\":{\"day\":2,\"time\":\"1300\"},\"open\":{\"day\":2,\"time\":\"0900\"}},{\"close\":{\"day\":2,\"time\":\"1700\"},\"open\":{\"day\":2,\"time\":\"1400\"}},{\"close\":{\"day\":3,\"time\":\"1300\"},\"open\":{\"day\":3,\"time\":\"0900\"}},{\"close\":{\"day\":3,\"time\":\"1700\"},\"open\":{\"day\":3,\"time\":\"1400\"}},{\"close\":{\"day\":4,\"time\":\"1300\"},\"open\":{\"day\":4,\"time\":\"0900\"}},{\"close\":{\"day\":4,\"time\":\"1700\"},\"open\":{\"day\":4,\"time\":\"1400\"}},{\"close\":{\"day\":5,\"time\":\"1300\"},\"open\":{\"day\":5,\"time\":\"0900\"}},{\"close\":{\"day\":5,\"time\":\"1700\"},\"open\":{\"day\":5,\"time\":\"1400\"}}],\"weekday_text\":[\"Monday: 9:00 AM \\u2013 1:00 PM, 2:00 \\u2013 5:00 PM\",\"Tuesday: 9:00 AM \\u2013 1:00 PM, 2:00 \\u2013 5:00 PM\",\"Wednesday: 9:00 AM \\u2013 1:00 PM, 2:00 \\u2013 5:00 PM\",\"Thursday: 9:00 AM \\u2013 1:00 PM, 2:00 \\u2013 5:00 PM\",\"Friday: 9:00 AM \\u2013 1:00 PM, 2:00 \\u2013 5:00 PM\",\"Saturday: Closed\",\"Sunday: Closed\"]},\"photos\":[{\"height\":4000,\"html_attributions\":[\"<a href=\\\"https:\\\/\\\/maps.google.com\\\/maps\\\/contrib\\\/112291565761025812829\\\">Smartphone Werkstatt<\\\/a>\"],\"photo_reference\":\"Aap_uEB_GokkLfGFmk4gHAGdAVCmGeRwro95Yw9Zr7QVD75BbTPrWQAevpgwRB1fcDEJM-23eemUa0sXgTkaRVPir-HaZZGAUSQvqHmB8IzmIjoE861waLjm0lRJjv2fg7ACpIwFYK54xnXOP4SjZKAzlYckP5nHeT1nJgdvU_Em9HEDQp8h\",\"width\":6000}],\"place_id\":\"ChIJq51KxICvb0cRm067U-H8n7w\",\"plus_code\":{\"compound_code\":\"QGJQ+8F Leibnitz, Austria\",\"global_code\":\"8FRQQGJQ+8F\"},\"rating\":5,\"reference\":\"ChIJq51KxICvb0cRm067U-H8n7w\",\"reviews\":[],\"types\":[\"point_of_interest\",\"establishment\"],\"url\":\"https:\\\/\\\/maps.google.com\\\/?cid=13591860245130071707\",\"user_ratings_total\":122,\"utc_offset\":120,\"vicinity\":\"Schmiedgasse 4, Leibnitz\",\"website\":\"http:\\\/\\\/www.smartphone-werkstatt.at\\\/\"}"
+        }
+      ],
+      "shippings": []
+    },
+    {
+      "id": 182,
+      "label": "MisyaMasa KG",
+      "description": "",
+      "website": null,
+      "email": "misyamasakg@a1.net",
+      "phone": null,
+      "zip": "2340",
+      "city": "M\u00f6dling",
+      "country": "AT",
+      "digital_goods": false,
+      "created_at": "2022-03-08T22:44:07.000000Z",
+      "updated_at": "2022-05-09T19:33:00.000000Z",
+      "address_line_1": "Dr. Otto Scheff Weg 13,,",
+      "address_line_2": null,
+      "address_line_3": null,
+      "accepts": [
+        "Bitcoin",
+        "Dash",
+        "Litecoin",
+        "Ethereum",
+        "Ripple",
+        "Stellar",
+        "Nimiq"
+      ],
+      "pickups": [
+        {
+          "id": 4176,
+          "shop_id": 182,
+          "geo_location": {
+            "type": "Point",
+            "coordinates": [
+              16.292683,
+              48.088834
+            ]
+          },
+          "created_at": "2022-05-09T19:34:15.000000Z",
+          "updated_at": "2022-05-09T19:34:15.000000Z",
+          "place_id": "ChIJrb31QhyvbUcRCrQtornCLe0",
+          "label": null,
+          "place_information": "{\"address_components\":[{\"long_name\":\"13\",\"short_name\":\"13\",\"types\":[\"street_number\"]},{\"long_name\":\"Doktor-Otto-Scheff-Weg\",\"short_name\":\"Dr.-Otto-Scheff-Weg\",\"types\":[\"route\"]},{\"long_name\":\"M\\u00f6dling\",\"short_name\":\"M\\u00f6dling\",\"types\":[\"locality\",\"political\"]},{\"long_name\":\"M\\u00f6dling\",\"short_name\":\"M\\u00f6dling\",\"types\":[\"administrative_area_level_2\",\"political\"]},{\"long_name\":\"Nieder\\u00f6sterreich\",\"short_name\":\"Nieder\\u00f6sterreich\",\"types\":[\"administrative_area_level_1\",\"political\"]},{\"long_name\":\"Austria\",\"short_name\":\"AT\",\"types\":[\"country\",\"political\"]},{\"long_name\":\"2340\",\"short_name\":\"2340\",\"types\":[\"postal_code\"]}],\"adr_address\":\"<span class=\\\"street-address\\\">Dr.-Otto-Scheff-Weg 13<\\\/span>, <span class=\\\"postal-code\\\">2340<\\\/span> <span class=\\\"locality\\\">M\\u00f6dling<\\\/span>, <span class=\\\"country-name\\\">Austria<\\\/span>\",\"business_status\":\"OPERATIONAL\",\"formatted_address\":\"Dr.-Otto-Scheff-Weg 13, 2340 M\\u00f6dling, Austria\",\"formatted_phone_number\":\"0664 5404195\",\"geometry\":{\"location\":{\"lat\":48.08883429999999,\"lng\":16.2926834},\"viewport\":{\"northeast\":{\"lat\":48.09021163029149,\"lng\":16.2941231802915},\"southwest\":{\"lat\":48.08751366970849,\"lng\":16.2914252197085}}},\"icon\":\"https:\\\/\\\/maps.gstatic.com\\\/mapfiles\\\/place_api\\\/icons\\\/v1\\\/png_71\\\/restaurant-71.png\",\"icon_background_color\":\"#FF9E67\",\"icon_mask_base_uri\":\"https:\\\/\\\/maps.gstatic.com\\\/mapfiles\\\/place_api\\\/icons\\\/v2\\\/restaurant_pinlet\",\"international_phone_number\":\"+43 664 5404195\",\"name\":\"Misyamasa Restaurant\",\"opening_hours\":{\"open_now\":false,\"periods\":[{\"close\":{\"day\":0,\"time\":\"2330\"},\"open\":{\"day\":0,\"time\":\"1100\"}},{\"close\":{\"day\":2,\"time\":\"2330\"},\"open\":{\"day\":2,\"time\":\"1100\"}},{\"close\":{\"day\":3,\"time\":\"2330\"},\"open\":{\"day\":3,\"time\":\"1100\"}},{\"close\":{\"day\":4,\"time\":\"2300\"},\"open\":{\"day\":4,\"time\":\"1100\"}},{\"close\":{\"day\":5,\"time\":\"2330\"},\"open\":{\"day\":5,\"time\":\"1100\"}},{\"close\":{\"day\":6,\"time\":\"2330\"},\"open\":{\"day\":6,\"time\":\"1100\"}}],\"weekday_text\":[\"Monday: Closed\",\"Tuesday: 11:00 AM \\u2013 11:30 PM\",\"Wednesday: 11:00 AM \\u2013 11:30 PM\",\"Thursday: 11:00 AM \\u2013 11:00 PM\",\"Friday: 11:00 AM \\u2013 11:30 PM\",\"Saturday: 11:00 AM \\u2013 11:30 PM\",\"Sunday: 11:00 AM \\u2013 11:30 PM\"]},\"photos\":[{\"height\":3024,\"html_attributions\":[\"<a href=\\\"https:\\\/\\\/maps.google.com\\\/maps\\\/contrib\\\/104626585678099137817\\\">ANIL CAN<\\\/a>\"],\"photo_reference\":\"Aap_uECiYUGKJsfb4NtskPT-5gLI1joHUE4cEeebLEyZmrFCU0XwNvTepaBgmmr8DKeWs9cw3kZSH7X_Ia6D6gRXKo3ohZyWVdiZE2fFZ9_eKGZqfXclVFlnje73YeK991B8i6ktzY-nQCD7hUNS0WCNheKMXfWk9iDGKX-a-x1phG6h2_Cj\",\"width\":4032}],\"place_id\":\"ChIJrb31QhyvbUcRCrQtornCLe0\",\"plus_code\":{\"compound_code\":\"37QV+G3 M\\u00f6dling, Austria\",\"global_code\":\"8FWR37QV+G3\"},\"rating\":4.7,\"reference\":\"ChIJrb31QhyvbUcRCrQtornCLe0\",\"reviews\":[],\"types\":[\"restaurant\",\"food\",\"point_of_interest\",\"establishment\"],\"url\":\"https:\\\/\\\/maps.google.com\\\/?cid=17090530263486542858\",\"user_ratings_total\":58,\"utc_offset\":120,\"vicinity\":\"Doktor-Otto-Scheff-Weg 13, M\\u00f6dling\",\"website\":\"http:\\\/\\\/www.misyamasa.at\\\/\"}"
+        }
+      ],
+      "shippings": []
+    },
+    {
+      "id": 4,
+      "label": "Hubax IT & Electronic Systems OG",
+      "description": "",
+      "website": null,
+      "email": "office@hubax.eu",
+      "phone": null,
+      "zip": "3100",
+      "city": "St. P\u00f6lten",
+      "country": "AT",
+      "digital_goods": false,
+      "created_at": "2022-03-08T22:44:07.000000Z",
+      "updated_at": "2022-05-09T19:31:44.000000Z",
+      "address_line_1": "Rathausplatz 19\/4,,",
+      "address_line_2": null,
+      "address_line_3": null,
+      "accepts": [
+        "Bitcoin",
+        "Dash",
+        "Litecoin",
+        "Ethereum",
+        "Ripple",
+        "Stellar",
+        "Nimiq"
+      ],
+      "pickups": [
+        {
+          "id": 3822,
+          "shop_id": 4,
+          "geo_location": {
+            "type": "Point",
+            "coordinates": [
+              15.623361,
+              48.2049
+            ]
+          },
+          "created_at": "2022-05-09T19:33:25.000000Z",
+          "updated_at": "2022-05-09T19:33:25.000000Z",
+          "place_id": "ChIJJ2GAYK94ckcReBa02Qi01XI",
+          "label": null,
+          "place_information": "{\"address_components\":[{\"long_name\":\"19\\\/4\",\"short_name\":\"19\\\/4\",\"types\":[\"street_number\"]},{\"long_name\":\"Rathausplatz\",\"short_name\":\"Rathauspl.\",\"types\":[\"route\"]},{\"long_name\":\"Sankt P\\u00f6lten\",\"short_name\":\"St. P\\u00f6lten\",\"types\":[\"locality\",\"political\"]},{\"long_name\":\"Sankt P\\u00f6lten\",\"short_name\":\"St. P\\u00f6lten\",\"types\":[\"administrative_area_level_2\",\"political\"]},{\"long_name\":\"Nieder\\u00f6sterreich\",\"short_name\":\"Nieder\\u00f6sterreich\",\"types\":[\"administrative_area_level_1\",\"political\"]},{\"long_name\":\"Austria\",\"short_name\":\"AT\",\"types\":[\"country\",\"political\"]},{\"long_name\":\"3100\",\"short_name\":\"3100\",\"types\":[\"postal_code\"]}],\"adr_address\":\"<span class=\\\"street-address\\\">Rathauspl. 19\\\/4<\\\/span>, <span class=\\\"postal-code\\\">3100<\\\/span> <span class=\\\"locality\\\">St. P\\u00f6lten<\\\/span>, <span class=\\\"country-name\\\">Austria<\\\/span>\",\"business_status\":\"OPERATIONAL\",\"formatted_address\":\"Rathauspl. 19\\\/4, 3100 St. P\\u00f6lten, Austria\",\"formatted_phone_number\":\"02742 32209\",\"geometry\":{\"location\":{\"lat\":48.2049,\"lng\":15.623361},\"viewport\":{\"northeast\":{\"lat\":48.20605593029151,\"lng\":15.6243498802915},\"southwest\":{\"lat\":48.20335796970851,\"lng\":15.6216519197085}}},\"icon\":\"https:\\\/\\\/maps.gstatic.com\\\/mapfiles\\\/place_api\\\/icons\\\/v1\\\/png_71\\\/generic_business-71.png\",\"icon_background_color\":\"#7B9EB0\",\"icon_mask_base_uri\":\"https:\\\/\\\/maps.gstatic.com\\\/mapfiles\\\/place_api\\\/icons\\\/v2\\\/generic_pinlet\",\"international_phone_number\":\"+43 2742 32209\",\"name\":\"HubaX IT & Electronic Systems OG\",\"photos\":[{\"height\":346,\"html_attributions\":[\"<a href=\\\"https:\\\/\\\/maps.google.com\\\/maps\\\/contrib\\\/109810567008854061487\\\">HubaX IT &amp; Electronic Systems OG<\\\/a>\"],\"photo_reference\":\"Aap_uEDXx51v1KsB-W4Z1D4pguQI12n43FHKlBRQ2rurUXaHupF6hvhUXHhlm9c_KIu2P5OMjqty6hE64u7EsjlUY3hoSDhV1Gug2EpRWPgxuxxsER_DCi3IcwUb4I0p8CvPZGijAj84DZcuHARBPDPveaGfXi9EsM3TKf8HZ9MiUv3UarV2\",\"width\":1100}],\"place_id\":\"ChIJJ2GAYK94ckcReBa02Qi01XI\",\"plus_code\":{\"compound_code\":\"6J3F+X8 Saint P\\u00f6lten, Austria\",\"global_code\":\"8FWQ6J3F+X8\"},\"rating\":4,\"reference\":\"ChIJJ2GAYK94ckcReBa02Qi01XI\",\"reviews\":[],\"types\":[\"point_of_interest\",\"establishment\"],\"url\":\"https:\\\/\\\/maps.google.com\\\/?cid=8274717840468350584\",\"user_ratings_total\":3,\"utc_offset\":120,\"vicinity\":\"Rathausplatz 19\\\/4, Sankt P\\u00f6lten\",\"website\":\"http:\\\/\\\/www.hubax.eu\\\/\"}"
+        }
+      ],
+      "shippings": []
+    },
+    {
+      "id": 5,
+      "label": "Peter Merk",
+      "description": "",
+      "website": null,
+      "email": "office@peter-merk.at",
+      "phone": null,
+      "zip": "4209",
+      "city": "Engerwitzdorf",
+      "country": "AT",
+      "digital_goods": false,
+      "created_at": "2022-03-08T22:44:07.000000Z",
+      "updated_at": "2022-05-09T19:31:45.000000Z",
+      "address_line_1": "Gallusweg 5,,",
+      "address_line_2": null,
+      "address_line_3": null,
+      "accepts": [
+        "Bitcoin",
+        "Dash",
+        "Litecoin",
+        "Ethereum",
+        "Ripple",
+        "Stellar",
+        "Nimiq"
+      ],
+      "pickups": [
+        {
+          "id": 3824,
+          "shop_id": 5,
+          "geo_location": {
+            "type": "Point",
+            "coordinates": [
+              14.398668,
+              48.354913
+            ]
+          },
+          "created_at": "2022-05-09T19:33:25.000000Z",
+          "updated_at": "2022-05-09T19:33:25.000000Z",
+          "place_id": "ChIJ62nr_Eaic0cR6wlR9nB2wc8",
+          "label": null,
+          "place_information": "{\"address_components\":[{\"long_name\":\"5\",\"short_name\":\"5\",\"types\":[\"street_number\"]},{\"long_name\":\"Gallusweg\",\"short_name\":\"Gallusweg\",\"types\":[\"route\"]},{\"long_name\":\"Gallusberg\",\"short_name\":\"Gallusberg\",\"types\":[\"locality\",\"political\"]},{\"long_name\":\"Gemeinde Goldw\\u00f6rth\",\"short_name\":\"Gemeinde Goldw\\u00f6rth\",\"types\":[\"administrative_area_level_2\",\"political\"]},{\"long_name\":\"Ober\\u00f6sterreich\",\"short_name\":\"Ober\\u00f6sterreich\",\"types\":[\"administrative_area_level_1\",\"political\"]},{\"long_name\":\"Austria\",\"short_name\":\"AT\",\"types\":[\"country\",\"political\"]},{\"long_name\":\"4209\",\"short_name\":\"4209\",\"types\":[\"postal_code\"]}],\"adr_address\":\"<span class=\\\"street-address\\\">Gallusweg 5<\\\/span>, <span class=\\\"postal-code\\\">4209<\\\/span> <span class=\\\"locality\\\">Gallusberg<\\\/span>, <span class=\\\"country-name\\\">Austria<\\\/span>\",\"formatted_address\":\"Gallusweg 5, 4209 Gallusberg, Austria\",\"geometry\":{\"location\":{\"lat\":48.35491289999999,\"lng\":14.3986685},\"viewport\":{\"northeast\":{\"lat\":48.35631893029149,\"lng\":14.4000366302915},\"southwest\":{\"lat\":48.3536209697085,\"lng\":14.3973386697085}}},\"icon\":\"https:\\\/\\\/maps.gstatic.com\\\/mapfiles\\\/place_api\\\/icons\\\/v1\\\/png_71\\\/geocode-71.png\",\"icon_background_color\":\"#7B9EB0\",\"icon_mask_base_uri\":\"https:\\\/\\\/maps.gstatic.com\\\/mapfiles\\\/place_api\\\/icons\\\/v2\\\/generic_pinlet\",\"name\":\"Gallusweg 5\",\"place_id\":\"ChIJ62nr_Eaic0cR6wlR9nB2wc8\",\"plus_code\":{\"compound_code\":\"993X+XF Gallusberg, Austria\",\"global_code\":\"8FWP993X+XF\"},\"reference\":\"ChIJ62nr_Eaic0cR6wlR9nB2wc8\",\"types\":[\"street_address\"],\"url\":\"https:\\\/\\\/maps.google.com\\\/?q=Gallusweg+5,+4209+Gallusberg,+Austria&ftid=0x4773a246fceb69eb:0xcfc17670f65109eb\",\"utc_offset\":120,\"vicinity\":\"Gallusberg\",\"reviews\":[]}"
+        }
+      ],
+      "shippings": []
+    },
+    {
+      "id": 6,
+      "label": "S&P Sports & Classic Cars",
+      "description": "",
+      "website": null,
+      "email": " office@sp-jects.at",
+      "phone": null,
+      "zip": "3354",
+      "city": "Wolfsbach",
+      "country": "AT",
+      "digital_goods": false,
+      "created_at": "2022-03-08T22:44:07.000000Z",
+      "updated_at": "2022-05-09T19:31:45.000000Z",
+      "address_line_1": "Dr. Koref Strasse 1 ,,",
+      "address_line_2": null,
+      "address_line_3": null,
+      "accepts": [
+        "Bitcoin",
+        "Dash",
+        "Litecoin",
+        "Ethereum",
+        "Ripple",
+        "Stellar",
+        "Nimiq"
+      ],
+      "pickups": [
+        {
+          "id": 3826,
+          "shop_id": 6,
+          "geo_location": {
+            "type": "Point",
+            "coordinates": [
+              14.678437,
+              48.069718
+            ]
+          },
+          "created_at": "2022-05-09T19:33:25.000000Z",
+          "updated_at": "2022-05-09T19:33:25.000000Z",
+          "place_id": "ChIJVSEGjdxKckcRbJFq8jqnpuA",
+          "label": null,
+          "place_information": "{\"address_components\":[{\"long_name\":\"48\",\"short_name\":\"48\",\"types\":[\"street_number\"]},{\"long_name\":\"Pfarrwald\",\"short_name\":\"Pfarrwald\",\"types\":[\"route\"]},{\"long_name\":\"Wolfsbach\",\"short_name\":\"Wolfsbach\",\"types\":[\"locality\",\"political\"]},{\"long_name\":\"Amstetten\",\"short_name\":\"Amstetten\",\"types\":[\"administrative_area_level_2\",\"political\"]},{\"long_name\":\"Nieder\\u00f6sterreich\",\"short_name\":\"Nieder\\u00f6sterreich\",\"types\":[\"administrative_area_level_1\",\"political\"]},{\"long_name\":\"Austria\",\"short_name\":\"AT\",\"types\":[\"country\",\"political\"]},{\"long_name\":\"3354\",\"short_name\":\"3354\",\"types\":[\"postal_code\"]}],\"adr_address\":\"<span class=\\\"street-address\\\">Pfarrwald 48<\\\/span>, <span class=\\\"postal-code\\\">3354<\\\/span> <span class=\\\"locality\\\">Wolfsbach<\\\/span>, <span class=\\\"country-name\\\">Austria<\\\/span>\",\"business_status\":\"OPERATIONAL\",\"formatted_address\":\"Pfarrwald 48, 3354 Wolfsbach, Austria\",\"formatted_phone_number\":\"07478 23787\",\"geometry\":{\"location\":{\"lat\":48.0697179,\"lng\":14.6784374},\"viewport\":{\"northeast\":{\"lat\":48.0712773802915,\"lng\":14.6798795802915},\"southwest\":{\"lat\":48.0685794197085,\"lng\":14.6771816197085}}},\"icon\":\"https:\\\/\\\/maps.gstatic.com\\\/mapfiles\\\/place_api\\\/icons\\\/v1\\\/png_71\\\/shopping-71.png\",\"icon_background_color\":\"#4B96F3\",\"icon_mask_base_uri\":\"https:\\\/\\\/maps.gstatic.com\\\/mapfiles\\\/place_api\\\/icons\\\/v2\\\/shopping_pinlet\",\"international_phone_number\":\"+43 7478 23787\",\"name\":\"S&P Sports & Classic Cars\",\"opening_hours\":{\"open_now\":false,\"periods\":[{\"close\":{\"day\":1,\"time\":\"1200\"},\"open\":{\"day\":1,\"time\":\"0800\"}},{\"close\":{\"day\":2,\"time\":\"1200\"},\"open\":{\"day\":2,\"time\":\"0800\"}},{\"close\":{\"day\":3,\"time\":\"1200\"},\"open\":{\"day\":3,\"time\":\"0800\"}},{\"close\":{\"day\":4,\"time\":\"1200\"},\"open\":{\"day\":4,\"time\":\"0800\"}},{\"close\":{\"day\":5,\"time\":\"1200\"},\"open\":{\"day\":5,\"time\":\"0800\"}}],\"weekday_text\":[\"Monday: 8:00 AM \\u2013 12:00 PM\",\"Tuesday: 8:00 AM \\u2013 12:00 PM\",\"Wednesday: 8:00 AM \\u2013 12:00 PM\",\"Thursday: 8:00 AM \\u2013 12:00 PM\",\"Friday: 8:00 AM \\u2013 12:00 PM\",\"Saturday: Closed\",\"Sunday: Closed\"]},\"photos\":[{\"height\":480,\"html_attributions\":[\"<a href=\\\"https:\\\/\\\/maps.google.com\\\/maps\\\/contrib\\\/105286178615773181548\\\">Chris Ebner<\\\/a>\"],\"photo_reference\":\"Aap_uEDrzwv8zXL5LPpMpt_3bpBze_yQB6nyANXYbs88uFYO2JFdNPVCe9__I6emGp85AbCUYDCcET8caUFeuDURoV-A8Q31QLDsoUCITnE2yYpx5bqCZWuw7GjDIIRZBTg2lHIO0VM3uIw4HX5TPzOB4v3Yj8c9c_3fz9trWVmctXKkmLd-\",\"width\":640}],\"place_id\":\"ChIJVSEGjdxKckcRbJFq8jqnpuA\",\"plus_code\":{\"compound_code\":\"3M9H+V9 Wolfsbach, Austria\",\"global_code\":\"8FWP3M9H+V9\"},\"rating\":4.8,\"reference\":\"ChIJVSEGjdxKckcRbJFq8jqnpuA\",\"reviews\":[],\"types\":[\"car_dealer\",\"point_of_interest\",\"store\",\"establishment\"],\"url\":\"https:\\\/\\\/maps.google.com\\\/?cid=16187809782246838636\",\"user_ratings_total\":21,\"utc_offset\":120,\"vicinity\":\"Pfarrwald 48, Wolfsbach\",\"website\":\"http:\\\/\\\/sp-jects.at\\\/\"}"
+        }
+      ],
+      "shippings": []
+    },
+    {
+      "id": 7,
+      "label": "Reisinger KFZ GmbH",
+      "description": "",
+      "website": null,
+      "email": "disabled.office@reisinger-kfz.at",
+      "phone": null,
+      "zip": "4463",
+      "city": "Grossraming",
+      "country": "AT",
+      "digital_goods": false,
+      "created_at": "2022-03-08T22:44:07.000000Z",
+      "updated_at": "2022-05-09T19:31:46.000000Z",
+      "address_line_1": "Eisenstrasse 13,,",
+      "address_line_2": null,
+      "address_line_3": null,
+      "accepts": [
+        "Bitcoin",
+        "Dash",
+        "Litecoin",
+        "Ethereum",
+        "Ripple",
+        "Stellar",
+        "Nimiq"
+      ],
+      "pickups": [
+        {
+          "id": 3828,
+          "shop_id": 7,
+          "geo_location": {
+            "type": "Point",
+            "coordinates": [
+              14.542984,
+              47.883579
+            ]
+          },
+          "created_at": "2022-05-09T19:33:26.000000Z",
+          "updated_at": "2022-05-09T19:33:26.000000Z",
+          "place_id": "ChIJgT7s0ETTc0cR3GP_3wv3oII",
+          "label": null,
+          "place_information": "{\"address_components\":[{\"long_name\":\"13\",\"short_name\":\"13\",\"types\":[\"street_number\"]},{\"long_name\":\"Eisenstra\\u00dfe\",\"short_name\":\"Eisenstra\\u00dfe\",\"types\":[\"route\"]},{\"long_name\":\"Gro\\u00dframing\",\"short_name\":\"Gro\\u00dframing\",\"types\":[\"locality\",\"political\"]},{\"long_name\":\"Steyr-Land\",\"short_name\":\"Steyr-Land\",\"types\":[\"administrative_area_level_2\",\"political\"]},{\"long_name\":\"Ober\\u00f6sterreich\",\"short_name\":\"Ober\\u00f6sterreich\",\"types\":[\"administrative_area_level_1\",\"political\"]},{\"long_name\":\"Austria\",\"short_name\":\"AT\",\"types\":[\"country\",\"political\"]},{\"long_name\":\"4463\",\"short_name\":\"4463\",\"types\":[\"postal_code\"]}],\"adr_address\":\"<span class=\\\"street-address\\\">Eisenstra\\u00dfe 13<\\\/span>, <span class=\\\"postal-code\\\">4463<\\\/span> <span class=\\\"locality\\\">Gro\\u00dframing<\\\/span>, <span class=\\\"country-name\\\">Austria<\\\/span>\",\"business_status\":\"OPERATIONAL\",\"formatted_address\":\"Eisenstra\\u00dfe 13, 4463 Gro\\u00dframing, Austria\",\"formatted_phone_number\":\"07254 8327\",\"geometry\":{\"location\":{\"lat\":47.8835791,\"lng\":14.5429842},\"viewport\":{\"northeast\":{\"lat\":47.8848527302915,\"lng\":14.5443005302915},\"southwest\":{\"lat\":47.8821547697085,\"lng\":14.5416025697085}}},\"icon\":\"https:\\\/\\\/maps.gstatic.com\\\/mapfiles\\\/place_api\\\/icons\\\/v1\\\/png_71\\\/generic_business-71.png\",\"icon_background_color\":\"#7B9EB0\",\"icon_mask_base_uri\":\"https:\\\/\\\/maps.gstatic.com\\\/mapfiles\\\/place_api\\\/icons\\\/v2\\\/generic_pinlet\",\"international_phone_number\":\"+43 7254 8327\",\"name\":\"Reisinger KFZ\",\"opening_hours\":{\"open_now\":false,\"periods\":[{\"close\":{\"day\":1,\"time\":\"1700\"},\"open\":{\"day\":1,\"time\":\"0730\"}},{\"close\":{\"day\":2,\"time\":\"1700\"},\"open\":{\"day\":2,\"time\":\"0730\"}},{\"close\":{\"day\":3,\"time\":\"1700\"},\"open\":{\"day\":3,\"time\":\"0730\"}},{\"close\":{\"day\":4,\"time\":\"1700\"},\"open\":{\"day\":4,\"time\":\"0730\"}},{\"close\":{\"day\":5,\"time\":\"1500\"},\"open\":{\"day\":5,\"time\":\"0730\"}}],\"weekday_text\":[\"Monday: 7:30 AM \\u2013 5:00 PM\",\"Tuesday: 7:30 AM \\u2013 5:00 PM\",\"Wednesday: 7:30 AM \\u2013 5:00 PM\",\"Thursday: 7:30 AM \\u2013 5:00 PM\",\"Friday: 7:30 AM \\u2013 3:00 PM\",\"Saturday: Closed\",\"Sunday: Closed\"]},\"photos\":[{\"height\":1080,\"html_attributions\":[\"<a href=\\\"https:\\\/\\\/maps.google.com\\\/maps\\\/contrib\\\/110949756814426592065\\\">Reisinger KFZ<\\\/a>\"],\"photo_reference\":\"Aap_uEB2pS3Y5Pmru-onL-sNHK2bDfqWk3t7dBIPrNu3dmJwxM2rKPXVIS80EqKXBcicPQ-jd05PVcPeXqSyS1AuWELC5tqyjtdDWHmf8ulEit2J_kxKeWD-kAerhWbGKRPoHQuyhsJlSbdd7ofpWgCkibUQOuTrnlxGN1w3KZFc2H6BqJHz\",\"width\":1531}],\"place_id\":\"ChIJgT7s0ETTc0cR3GP_3wv3oII\",\"plus_code\":{\"compound_code\":\"VGMV+C5 Gro\\u00dframing, Austria\",\"global_code\":\"8FVPVGMV+C5\"},\"rating\":4.7,\"reference\":\"ChIJgT7s0ETTc0cR3GP_3wv3oII\",\"reviews\":[],\"types\":[\"car_dealer\",\"car_repair\",\"point_of_interest\",\"store\",\"establishment\"],\"url\":\"https:\\\/\\\/maps.google.com\\\/?cid=9412794851579093980\",\"user_ratings_total\":48,\"utc_offset\":120,\"vicinity\":\"Eisenstra\\u00dfe 13, Gro\\u00dframing\",\"website\":\"http:\\\/\\\/www.reisinger-kfz.at\\\/\"}"
+        }
+      ],
+      "shippings": []
+    },
+    {
+      "id": 8,
+      "label": "Elektro Staudinger",
+      "description": "",
+      "website": null,
+      "email": "office@elektro-staudinger.at",
+      "phone": null,
+      "zip": "4552",
+      "city": "Wartberg\/Krems",
+      "country": "AT",
+      "digital_goods": false,
+      "created_at": "2022-03-08T22:44:07.000000Z",
+      "updated_at": "2022-05-09T19:31:46.000000Z",
+      "address_line_1": "Florianiweg 9,,",
+      "address_line_2": null,
+      "address_line_3": null,
+      "accepts": [
+        "Bitcoin",
+        "Dash",
+        "Litecoin",
+        "Ethereum",
+        "Ripple",
+        "Stellar",
+        "Nimiq"
+      ],
+      "pickups": [
+        {
+          "id": 3830,
+          "shop_id": 8,
+          "geo_location": {
+            "type": "Point",
+            "coordinates": [
+              14.12097,
+              47.985307
+            ]
+          },
+          "created_at": "2022-05-09T19:33:26.000000Z",
+          "updated_at": "2022-05-09T19:33:26.000000Z",
+          "place_id": "ChIJDWV4pbXnc0cR1eU1k7G2cXo",
+          "label": null,
+          "place_information": "{\"address_components\":[{\"long_name\":\"9\",\"short_name\":\"9\",\"types\":[\"street_number\"]},{\"long_name\":\"Florianiweg\",\"short_name\":\"Florianiweg\",\"types\":[\"route\"]},{\"long_name\":\"Wartberg an der Krems\",\"short_name\":\"Wartberg an der Krems\",\"types\":[\"locality\",\"political\"]},{\"long_name\":\"Kirchdorf an der Krems\",\"short_name\":\"Kirchdorf an der Krems\",\"types\":[\"administrative_area_level_2\",\"political\"]},{\"long_name\":\"Ober\\u00f6sterreich\",\"short_name\":\"Ober\\u00f6sterreich\",\"types\":[\"administrative_area_level_1\",\"political\"]},{\"long_name\":\"Austria\",\"short_name\":\"AT\",\"types\":[\"country\",\"political\"]},{\"long_name\":\"4552\",\"short_name\":\"4552\",\"types\":[\"postal_code\"]}],\"adr_address\":\"<span class=\\\"street-address\\\">Florianiweg 9<\\\/span>, <span class=\\\"postal-code\\\">4552<\\\/span> <span class=\\\"locality\\\">Wartberg an der Krems<\\\/span>, <span class=\\\"country-name\\\">Austria<\\\/span>\",\"business_status\":\"OPERATIONAL\",\"formatted_address\":\"Florianiweg 9, 4552 Wartberg an der Krems, Austria\",\"formatted_phone_number\":\"07587 7690\",\"geometry\":{\"location\":{\"lat\":47.9853067,\"lng\":14.1209698},\"viewport\":{\"northeast\":{\"lat\":47.9866764302915,\"lng\":14.1221869802915},\"southwest\":{\"lat\":47.9839784697085,\"lng\":14.1194890197085}}},\"icon\":\"https:\\\/\\\/maps.gstatic.com\\\/mapfiles\\\/place_api\\\/icons\\\/v1\\\/png_71\\\/generic_business-71.png\",\"icon_background_color\":\"#7B9EB0\",\"icon_mask_base_uri\":\"https:\\\/\\\/maps.gstatic.com\\\/mapfiles\\\/place_api\\\/icons\\\/v2\\\/generic_pinlet\",\"international_phone_number\":\"+43 7587 7690\",\"name\":\"Hubert Staudinger\",\"opening_hours\":{\"open_now\":false,\"periods\":[{\"close\":{\"day\":1,\"time\":\"1200\"},\"open\":{\"day\":1,\"time\":\"0730\"}},{\"close\":{\"day\":1,\"time\":\"1600\"},\"open\":{\"day\":1,\"time\":\"1300\"}},{\"close\":{\"day\":2,\"time\":\"1200\"},\"open\":{\"day\":2,\"time\":\"0730\"}},{\"close\":{\"day\":3,\"time\":\"1200\"},\"open\":{\"day\":3,\"time\":\"0730\"}},{\"close\":{\"day\":4,\"time\":\"1200\"},\"open\":{\"day\":4,\"time\":\"0730\"}},{\"close\":{\"day\":4,\"time\":\"1600\"},\"open\":{\"day\":4,\"time\":\"1300\"}},{\"close\":{\"day\":5,\"time\":\"1200\"},\"open\":{\"day\":5,\"time\":\"0730\"}}],\"weekday_text\":[\"Monday: 7:30 AM \\u2013 12:00 PM, 1:00 \\u2013 4:00 PM\",\"Tuesday: 7:30 AM \\u2013 12:00 PM\",\"Wednesday: 7:30 AM \\u2013 12:00 PM\",\"Thursday: 7:30 AM \\u2013 12:00 PM, 1:00 \\u2013 4:00 PM\",\"Friday: 7:30 AM \\u2013 12:00 PM\",\"Saturday: Closed\",\"Sunday: Closed\"]},\"place_id\":\"ChIJDWV4pbXnc0cR1eU1k7G2cXo\",\"plus_code\":{\"compound_code\":\"X4PC+49 Wartberg an der Krems, Austria\",\"global_code\":\"8FVPX4PC+49\"},\"rating\":5,\"reference\":\"ChIJDWV4pbXnc0cR1eU1k7G2cXo\",\"reviews\":[],\"types\":[\"electrician\",\"point_of_interest\",\"establishment\"],\"url\":\"https:\\\/\\\/maps.google.com\\\/?cid=8823034018790761941\",\"user_ratings_total\":8,\"utc_offset\":120,\"vicinity\":\"Florianiweg 9, Wartberg an der Krems\",\"website\":\"http:\\\/\\\/www.elektro-staudinger.com\\\/\"}"
+        }
+      ],
+      "shippings": []
+    },
+    {
+      "id": 9,
+      "label": "Steinbichler GmbH",
+      "description": "",
+      "website": null,
+      "email": "office@gsb1.at",
+      "phone": null,
+      "zip": "3300",
+      "city": "Mauer bei Amstetten",
+      "country": "AT",
+      "digital_goods": false,
+      "created_at": "2022-03-08T22:44:07.000000Z",
+      "updated_at": "2022-05-09T19:31:46.000000Z",
+      "address_line_1": "Bauwesenstra\u00dfe 1,,",
+      "address_line_2": null,
+      "address_line_3": null,
+      "accepts": [
+        "Bitcoin",
+        "Dash",
+        "Litecoin",
+        "Ethereum",
+        "Ripple",
+        "Stellar",
+        "Nimiq"
+      ],
+      "pickups": [
+        {
+          "id": 3832,
+          "shop_id": 9,
+          "geo_location": {
+            "type": "Point",
+            "coordinates": [
+              14.82508,
+              48.101342
+            ]
+          },
+          "created_at": "2022-05-09T19:33:26.000000Z",
+          "updated_at": "2022-05-09T19:33:26.000000Z",
+          "place_id": "ChIJCQOkl7lJckcRxOC5Pue1ce4",
+          "label": null,
+          "place_information": "{\"address_components\":[{\"long_name\":\"1\",\"short_name\":\"1\",\"types\":[\"street_number\"]},{\"long_name\":\"Bauwesenstra\\u00dfe\",\"short_name\":\"Bauwesenstra\\u00dfe\",\"types\":[\"route\"]},{\"long_name\":\"Mauer bei Amstetten\",\"short_name\":\"Mauer bei Amstetten\",\"types\":[\"locality\",\"political\"]},{\"long_name\":\"Amstetten\",\"short_name\":\"Amstetten\",\"types\":[\"administrative_area_level_2\",\"political\"]},{\"long_name\":\"Nieder\\u00f6sterreich\",\"short_name\":\"Nieder\\u00f6sterreich\",\"types\":[\"administrative_area_level_1\",\"political\"]},{\"long_name\":\"Austria\",\"short_name\":\"AT\",\"types\":[\"country\",\"political\"]},{\"long_name\":\"3362\",\"short_name\":\"3362\",\"types\":[\"postal_code\"]}],\"adr_address\":\"<span class=\\\"street-address\\\">Bauwesenstra\\u00dfe 1<\\\/span>, <span class=\\\"postal-code\\\">3362<\\\/span> <span class=\\\"locality\\\">Mauer bei Amstetten<\\\/span>, <span class=\\\"country-name\\\">Austria<\\\/span>\",\"business_status\":\"OPERATIONAL\",\"formatted_address\":\"Bauwesenstra\\u00dfe 1, 3362 Mauer bei Amstetten, Austria\",\"formatted_phone_number\":\"07472 61500\",\"geometry\":{\"location\":{\"lat\":48.1013421,\"lng\":14.8250799},\"viewport\":{\"northeast\":{\"lat\":48.1026526302915,\"lng\":14.8265206802915},\"southwest\":{\"lat\":48.0999546697085,\"lng\":14.82382271970849}}},\"icon\":\"https:\\\/\\\/maps.gstatic.com\\\/mapfiles\\\/place_api\\\/icons\\\/v1\\\/png_71\\\/generic_business-71.png\",\"icon_background_color\":\"#7B9EB0\",\"icon_mask_base_uri\":\"https:\\\/\\\/maps.gstatic.com\\\/mapfiles\\\/place_api\\\/icons\\\/v2\\\/generic_pinlet\",\"international_phone_number\":\"+43 7472 61500\",\"name\":\"Steinbichler GmbH\",\"photos\":[{\"height\":2252,\"html_attributions\":[\"<a href=\\\"https:\\\/\\\/maps.google.com\\\/maps\\\/contrib\\\/106615495019344953208\\\">Marko Robert Maximilian Niederreiter<\\\/a>\"],\"photo_reference\":\"Aap_uECDrE4bjPnN4kNHAPG9tp-HnwEp7a1mQeUuhxeBY6b9j-5RthkttszBBmVjidyg4MzSEpdBC3ufXH5R7PuFUsW2vDkQmycZI3wOlGpiB4PCh8UoGB-4oW3iJAnJjBW0ZBsxrXsd-n6r6ySe3BpNjyQ1ysnCmQvbU6EudX3GzhIyiHKP\",\"width\":4000}],\"place_id\":\"ChIJCQOkl7lJckcRxOC5Pue1ce4\",\"plus_code\":{\"compound_code\":\"4R2G+G2 Mauer bei Amstetten, Austria\",\"global_code\":\"8FWP4R2G+G2\"},\"rating\":4.5,\"reference\":\"ChIJCQOkl7lJckcRxOC5Pue1ce4\",\"reviews\":[],\"types\":[\"car_repair\",\"point_of_interest\",\"establishment\"],\"url\":\"https:\\\/\\\/maps.google.com\\\/?cid=17181714058189594820\",\"user_ratings_total\":29,\"utc_offset\":120,\"vicinity\":\"Bauwesenstra\\u00dfe 1, Mauer bei Amstetten\",\"website\":\"http:\\\/\\\/www.gsb1.at\\\/\"}"
+        }
+      ],
+      "shippings": []
+    },
+    {
+      "id": 10,
+      "label": "Taverne zum Griechen ",
+      "description": "",
+      "website": null,
+      "email": "disabled.zum.griechen.nussbach@gmx.at",
+      "phone": null,
+      "zip": "4542",
+      "city": "Nussbach",
+      "country": "AT",
+      "digital_goods": false,
+      "created_at": "2022-03-08T22:44:07.000000Z",
+      "updated_at": "2022-05-09T19:31:47.000000Z",
+      "address_line_1": "Jageredt 2,,",
+      "address_line_2": null,
+      "address_line_3": null,
+      "accepts": [
+        "Bitcoin",
+        "Dash",
+        "Litecoin",
+        "Ethereum",
+        "Ripple",
+        "Stellar",
+        "Nimiq"
+      ],
+      "pickups": [
+        {
+          "id": 3834,
+          "shop_id": 10,
+          "geo_location": {
+            "type": "Point",
+            "coordinates": [
+              14.134258,
+              47.960362
+            ]
+          },
+          "created_at": "2022-05-09T19:33:26.000000Z",
+          "updated_at": "2022-05-09T19:33:26.000000Z",
+          "place_id": "ChIJqToynXTnc0cRTWNEqxUjq30",
+          "label": null,
+          "place_information": "{\"address_components\":[{\"long_name\":\"2\",\"short_name\":\"2\",\"types\":[\"street_number\"]},{\"long_name\":\"Jageredt\",\"short_name\":\"Jageredt\",\"types\":[\"route\"]},{\"long_name\":\"Nu\\u00dfbach\",\"short_name\":\"Nu\\u00dfbach\",\"types\":[\"locality\",\"political\"]},{\"long_name\":\"Kirchdorf an der Krems\",\"short_name\":\"Kirchdorf an der Krems\",\"types\":[\"administrative_area_level_2\",\"political\"]},{\"long_name\":\"Ober\\u00f6sterreich\",\"short_name\":\"Ober\\u00f6sterreich\",\"types\":[\"administrative_area_level_1\",\"political\"]},{\"long_name\":\"Austria\",\"short_name\":\"AT\",\"types\":[\"country\",\"political\"]},{\"long_name\":\"4542\",\"short_name\":\"4542\",\"types\":[\"postal_code\"]}],\"adr_address\":\"<span class=\\\"street-address\\\">Jageredt 2<\\\/span>, <span class=\\\"postal-code\\\">4542<\\\/span> <span class=\\\"locality\\\">Nu\\u00dfbach<\\\/span>, <span class=\\\"country-name\\\">Austria<\\\/span>\",\"business_status\":\"OPERATIONAL\",\"formatted_address\":\"Jageredt 2, 4542 Nu\\u00dfbach, Austria\",\"formatted_phone_number\":\"07587 84111\",\"geometry\":{\"location\":{\"lat\":47.9603619,\"lng\":14.1342582},\"viewport\":{\"northeast\":{\"lat\":47.96154018029149,\"lng\":14.1355255802915},\"southwest\":{\"lat\":47.95884221970849,\"lng\":14.1328276197085}}},\"icon\":\"https:\\\/\\\/maps.gstatic.com\\\/mapfiles\\\/place_api\\\/icons\\\/v1\\\/png_71\\\/restaurant-71.png\",\"icon_background_color\":\"#FF9E67\",\"icon_mask_base_uri\":\"https:\\\/\\\/maps.gstatic.com\\\/mapfiles\\\/place_api\\\/icons\\\/v2\\\/restaurant_pinlet\",\"international_phone_number\":\"+43 7587 84111\",\"name\":\"Taverne zum Griechen\",\"opening_hours\":{\"open_now\":false,\"periods\":[{\"close\":{\"day\":0,\"time\":\"2100\"},\"open\":{\"day\":0,\"time\":\"1000\"}},{\"close\":{\"day\":3,\"time\":\"1430\"},\"open\":{\"day\":3,\"time\":\"1100\"}},{\"close\":{\"day\":3,\"time\":\"2230\"},\"open\":{\"day\":3,\"time\":\"1700\"}},{\"close\":{\"day\":4,\"time\":\"1430\"},\"open\":{\"day\":4,\"time\":\"1100\"}},{\"close\":{\"day\":4,\"time\":\"2230\"},\"open\":{\"day\":4,\"time\":\"1700\"}},{\"close\":{\"day\":5,\"time\":\"1430\"},\"open\":{\"day\":5,\"time\":\"1100\"}},{\"close\":{\"day\":5,\"time\":\"2230\"},\"open\":{\"day\":5,\"time\":\"1700\"}},{\"close\":{\"day\":6,\"time\":\"1430\"},\"open\":{\"day\":6,\"time\":\"1100\"}},{\"close\":{\"day\":6,\"time\":\"2230\"},\"open\":{\"day\":6,\"time\":\"1700\"}}],\"weekday_text\":[\"Monday: Closed\",\"Tuesday: Closed\",\"Wednesday: 11:00 AM \\u2013 2:30 PM, 5:00 \\u2013 10:30 PM\",\"Thursday: 11:00 AM \\u2013 2:30 PM, 5:00 \\u2013 10:30 PM\",\"Friday: 11:00 AM \\u2013 2:30 PM, 5:00 \\u2013 10:30 PM\",\"Saturday: 11:00 AM \\u2013 2:30 PM, 5:00 \\u2013 10:30 PM\",\"Sunday: 10:00 AM \\u2013 9:00 PM\"]},\"photos\":[{\"height\":537,\"html_attributions\":[\"<a href=\\\"https:\\\/\\\/maps.google.com\\\/maps\\\/contrib\\\/108242670276689111885\\\">Taverne zum Griechen<\\\/a>\"],\"photo_reference\":\"Aap_uECiAE4F69P_1WLrwAW8Mu21SfTiF6LrpbuD3X0-N0Na59wyE517UYetvfiN5J7XfdN29meQTlkEvCq7TstijwZ1K1XnZTbzxmEjKrg3AOAIE_L8XYZMrWGwPjgbIEr_shi3m66RFHpX1gdzSGQ1hhRc-94f84hbrpIDWEuKH1jaccR-\",\"width\":720}],\"place_id\":\"ChIJqToynXTnc0cRTWNEqxUjq30\",\"plus_code\":{\"compound_code\":\"X46M+4P Nu\\u00dfbach, Austria\",\"global_code\":\"8FVPX46M+4P\"},\"price_level\":2,\"rating\":4.5,\"reference\":\"ChIJqToynXTnc0cRTWNEqxUjq30\",\"reviews\":[],\"types\":[\"restaurant\",\"food\",\"point_of_interest\",\"establishment\"],\"url\":\"https:\\\/\\\/maps.google.com\\\/?cid=9055370051733185357\",\"user_ratings_total\":326,\"utc_offset\":120,\"vicinity\":\"Jageredt 2, Nu\\u00dfbach\",\"website\":\"http:\\\/\\\/www.zum-griechen-nussbach.at\\\/\"}"
+        }
+      ],
+      "shippings": []
+    },
+    {
+      "id": 11,
+      "label": "Hummer Patrick",
+      "description": "",
+      "website": null,
+      "email": "yourbetterlifestyle@gmail.com",
+      "phone": null,
+      "zip": "4600",
+      "city": "Wels",
+      "country": "AT",
+      "digital_goods": false,
+      "created_at": "2022-03-08T22:44:07.000000Z",
+      "updated_at": "2022-05-09T19:31:47.000000Z",
+      "address_line_1": "Rosenau 39,,",
+      "address_line_2": null,
+      "address_line_3": null,
+      "accepts": [
+        "Bitcoin",
+        "Dash",
+        "Litecoin",
+        "Ethereum",
+        "Ripple",
+        "Stellar",
+        "Nimiq"
+      ],
+      "pickups": [
+        {
+          "id": 3836,
+          "shop_id": 11,
+          "geo_location": {
+            "type": "Point",
+            "coordinates": [
+              14.013601,
+              48.147303
+            ]
+          },
+          "created_at": "2022-05-09T19:33:27.000000Z",
+          "updated_at": "2022-05-09T19:33:27.000000Z",
+          "place_id": "ChIJJRzsso7yc0cR9MkohprQcl0",
+          "label": null,
+          "place_information": "{\"address_components\":[{\"long_name\":\"39\",\"short_name\":\"39\",\"types\":[\"street_number\"]},{\"long_name\":\"Rosenau\",\"short_name\":\"Rosenau\",\"types\":[\"route\"]},{\"long_name\":\"Wels\",\"short_name\":\"Wels\",\"types\":[\"locality\",\"political\"]},{\"long_name\":\"Wels\",\"short_name\":\"Wels\",\"types\":[\"administrative_area_level_2\",\"political\"]},{\"long_name\":\"Ober\\u00f6sterreich\",\"short_name\":\"Ober\\u00f6sterreich\",\"types\":[\"administrative_area_level_1\",\"political\"]},{\"long_name\":\"Austria\",\"short_name\":\"AT\",\"types\":[\"country\",\"political\"]},{\"long_name\":\"4600\",\"short_name\":\"4600\",\"types\":[\"postal_code\"]}],\"adr_address\":\"<span class=\\\"street-address\\\">Rosenau 39<\\\/span>, <span class=\\\"postal-code\\\">4600<\\\/span> <span class=\\\"locality\\\">Wels<\\\/span>, <span class=\\\"country-name\\\">Austria<\\\/span>\",\"formatted_address\":\"Rosenau 39, 4600 Wels, Austria\",\"geometry\":{\"location\":{\"lat\":48.1473032,\"lng\":14.0136008},\"viewport\":{\"northeast\":{\"lat\":48.14846713029149,\"lng\":14.0151260802915},\"southwest\":{\"lat\":48.14576916970849,\"lng\":14.0124281197085}}},\"icon\":\"https:\\\/\\\/maps.gstatic.com\\\/mapfiles\\\/place_api\\\/icons\\\/v1\\\/png_71\\\/geocode-71.png\",\"icon_background_color\":\"#7B9EB0\",\"icon_mask_base_uri\":\"https:\\\/\\\/maps.gstatic.com\\\/mapfiles\\\/place_api\\\/icons\\\/v2\\\/generic_pinlet\",\"name\":\"Rosenau 39\",\"place_id\":\"ChIJJRzsso7yc0cR9MkohprQcl0\",\"reference\":\"ChIJJRzsso7yc0cR9MkohprQcl0\",\"types\":[\"premise\"],\"url\":\"https:\\\/\\\/maps.google.com\\\/?q=Rosenau+39,+4600+Wels,+Austria&ftid=0x4773f28eb2ec1c25:0x5d72d09a8628c9f4\",\"utc_offset\":120,\"vicinity\":\"Wels\",\"reviews\":[]}"
+        }
+      ],
+      "shippings": []
+    },
+    {
+      "id": 12,
+      "label": "Hager Angelika Tabak Fachgesch\u00e4ft ",
+      "description": "",
+      "website": null,
+      "email": "disabled.a.henndorfer@3sline.com",
+      "phone": null,
+      "zip": "4052",
+      "city": "Ansfelden",
+      "country": "AT",
+      "digital_goods": false,
+      "created_at": "2022-03-08T22:44:07.000000Z",
+      "updated_at": "2022-05-09T19:31:48.000000Z",
+      "address_line_1": "Anton- Brucknerstrasse 12,,",
+      "address_line_2": null,
+      "address_line_3": null,
+      "accepts": [
+        "Bitcoin",
+        "Dash",
+        "Litecoin",
+        "Ethereum",
+        "Ripple",
+        "Stellar",
+        "Nimiq"
+      ],
+      "pickups": [
+        {
+          "id": 3838,
+          "shop_id": 12,
+          "geo_location": {
+            "type": "Point",
+            "coordinates": [
+              14.288174,
+              48.21129
+            ]
+          },
+          "created_at": "2022-05-09T19:33:27.000000Z",
+          "updated_at": "2022-05-09T19:33:27.000000Z",
+          "place_id": "ChIJZ1XSzx--c0cR5dAmeDDzt5Q",
+          "label": null,
+          "place_information": "{\"address_components\":[{\"long_name\":\"12\",\"short_name\":\"12\",\"types\":[\"street_number\"]},{\"long_name\":\"Anton-Bruckner-Stra\\u00dfe\",\"short_name\":\"Anton-Bruckner-Str\",\"types\":[\"route\"]},{\"long_name\":\"Ansfelden\",\"short_name\":\"Ansfelden\",\"types\":[\"locality\",\"political\"]},{\"long_name\":\"Linz-Land\",\"short_name\":\"Linz-Land\",\"types\":[\"administrative_area_level_2\",\"political\"]},{\"long_name\":\"Ober\\u00f6sterreich\",\"short_name\":\"Ober\\u00f6sterreich\",\"types\":[\"administrative_area_level_1\",\"political\"]},{\"long_name\":\"Austria\",\"short_name\":\"AT\",\"types\":[\"country\",\"political\"]},{\"long_name\":\"4052\",\"short_name\":\"4052\",\"types\":[\"postal_code\"]}],\"adr_address\":\"<span class=\\\"street-address\\\">Anton-Bruckner-Str 12<\\\/span>, <span class=\\\"postal-code\\\">4052<\\\/span> <span class=\\\"locality\\\">Ansfelden<\\\/span>, <span class=\\\"country-name\\\">Austria<\\\/span>\",\"formatted_address\":\"Anton-Bruckner-Str 12, 4052 Ansfelden, Austria\",\"geometry\":{\"location\":{\"lat\":48.21128969999999,\"lng\":14.2881739},\"viewport\":{\"northeast\":{\"lat\":48.2125541802915,\"lng\":14.2895818802915},\"southwest\":{\"lat\":48.2098562197085,\"lng\":14.2868839197085}}},\"icon\":\"https:\\\/\\\/maps.gstatic.com\\\/mapfiles\\\/place_api\\\/icons\\\/v1\\\/png_71\\\/geocode-71.png\",\"icon_background_color\":\"#7B9EB0\",\"icon_mask_base_uri\":\"https:\\\/\\\/maps.gstatic.com\\\/mapfiles\\\/place_api\\\/icons\\\/v2\\\/generic_pinlet\",\"name\":\"Anton-Bruckner-Str 12\",\"place_id\":\"ChIJZ1XSzx--c0cR5dAmeDDzt5Q\",\"reference\":\"ChIJZ1XSzx--c0cR5dAmeDDzt5Q\",\"types\":[\"premise\"],\"url\":\"https:\\\/\\\/maps.google.com\\\/?q=Anton-Bruckner-Str+12,+4052+Ansfelden,+Austria&ftid=0x4773be1fcfd25567:0x94b7f3307826d0e5\",\"utc_offset\":120,\"vicinity\":\"Ansfelden\",\"reviews\":[]}"
+        }
+      ],
+      "shippings": []
+    },
+    {
+      "id": 13,
+      "label": "Powerzone GmbH",
+      "description": "",
+      "website": null,
+      "email": "disabled.office@powerzone.at",
+      "phone": null,
+      "zip": "4643",
+      "city": "Pettenbach",
+      "country": "AT",
+      "digital_goods": false,
+      "created_at": "2022-03-08T22:44:07.000000Z",
+      "updated_at": "2022-05-09T19:31:48.000000Z",
+      "address_line_1": "Kapellenweg 4,,",
+      "address_line_2": null,
+      "address_line_3": null,
+      "accepts": [
+        "Bitcoin",
+        "Dash",
+        "Litecoin",
+        "Ethereum",
+        "Ripple",
+        "Stellar",
+        "Nimiq"
+      ],
+      "pickups": [
+        {
+          "id": 3840,
+          "shop_id": 13,
+          "geo_location": {
+            "type": "Point",
+            "coordinates": [
+              14.021282,
+              47.965002
+            ]
+          },
+          "created_at": "2022-05-09T19:33:27.000000Z",
+          "updated_at": "2022-05-09T19:33:27.000000Z",
+          "place_id": "ChIJzxTJ2Ubkc0cR7_ADK5mpRAA",
+          "label": null,
+          "place_information": "{\"address_components\":[{\"long_name\":\"4\",\"short_name\":\"4\",\"types\":[\"street_number\"]},{\"long_name\":\"Kapellenweg\",\"short_name\":\"Kapellenweg\",\"types\":[\"route\"]},{\"long_name\":\"Pettenbach\",\"short_name\":\"Pettenbach\",\"types\":[\"locality\",\"political\"]},{\"long_name\":\"Kirchdorf an der Krems\",\"short_name\":\"Kirchdorf an der Krems\",\"types\":[\"administrative_area_level_2\",\"political\"]},{\"long_name\":\"Ober\\u00f6sterreich\",\"short_name\":\"Ober\\u00f6sterreich\",\"types\":[\"administrative_area_level_1\",\"political\"]},{\"long_name\":\"Austria\",\"short_name\":\"AT\",\"types\":[\"country\",\"political\"]},{\"long_name\":\"4643\",\"short_name\":\"4643\",\"types\":[\"postal_code\"]}],\"adr_address\":\"<span class=\\\"street-address\\\">Kapellenweg 4<\\\/span>, <span class=\\\"postal-code\\\">4643<\\\/span> <span class=\\\"locality\\\">Pettenbach<\\\/span>, <span class=\\\"country-name\\\">Austria<\\\/span>\",\"business_status\":\"OPERATIONAL\",\"formatted_address\":\"Kapellenweg 4, 4643 Pettenbach, Austria\",\"formatted_phone_number\":\"0699 10735515\",\"geometry\":{\"location\":{\"lat\":47.9650018,\"lng\":14.0212821},\"viewport\":{\"northeast\":{\"lat\":47.9663967802915,\"lng\":14.0227017802915},\"southwest\":{\"lat\":47.9636988197085,\"lng\":14.0200038197085}}},\"icon\":\"https:\\\/\\\/maps.gstatic.com\\\/mapfiles\\\/place_api\\\/icons\\\/v1\\\/png_71\\\/generic_business-71.png\",\"icon_background_color\":\"#7B9EB0\",\"icon_mask_base_uri\":\"https:\\\/\\\/maps.gstatic.com\\\/mapfiles\\\/place_api\\\/icons\\\/v2\\\/generic_pinlet\",\"international_phone_number\":\"+43 699 10735515\",\"name\":\"Powerzone\",\"opening_hours\":{\"open_now\":false,\"periods\":[{\"close\":{\"day\":1,\"time\":\"1200\"},\"open\":{\"day\":1,\"time\":\"0900\"}},{\"close\":{\"day\":1,\"time\":\"1700\"},\"open\":{\"day\":1,\"time\":\"1400\"}},{\"close\":{\"day\":2,\"time\":\"1200\"},\"open\":{\"day\":2,\"time\":\"0900\"}},{\"close\":{\"day\":2,\"time\":\"1700\"},\"open\":{\"day\":2,\"time\":\"1400\"}},{\"close\":{\"day\":4,\"time\":\"1200\"},\"open\":{\"day\":4,\"time\":\"0900\"}},{\"close\":{\"day\":4,\"time\":\"1700\"},\"open\":{\"day\":4,\"time\":\"1400\"}},{\"close\":{\"day\":5,\"time\":\"1200\"},\"open\":{\"day\":5,\"time\":\"0900\"}},{\"close\":{\"day\":5,\"time\":\"1700\"},\"open\":{\"day\":5,\"time\":\"1400\"}}],\"weekday_text\":[\"Monday: 9:00 AM \\u2013 12:00 PM, 2:00 \\u2013 5:00 PM\",\"Tuesday: 9:00 AM \\u2013 12:00 PM, 2:00 \\u2013 5:00 PM\",\"Wednesday: Closed\",\"Thursday: 9:00 AM \\u2013 12:00 PM, 2:00 \\u2013 5:00 PM\",\"Friday: 9:00 AM \\u2013 12:00 PM, 2:00 \\u2013 5:00 PM\",\"Saturday: Closed\",\"Sunday: Closed\"]},\"photos\":[{\"height\":2268,\"html_attributions\":[\"<a href=\\\"https:\\\/\\\/maps.google.com\\\/maps\\\/contrib\\\/112108467706505313023\\\">Pi Wi<\\\/a>\"],\"photo_reference\":\"Aap_uEDJFd05pkb9D5jjPNN0_hGroQHD5BK7xNqfir7oSrGRt91KmzRLVnDxkWeQ7YEDU3OxHUoiJPvh3wPNRoJpjWHqjF0fRKx5liT-ZzBYM0lyI3Al_sXEMM5IA9zoUjih7WKjRfMp0ajqp74adbvLkFw2FxQH9ZKGCbx_oT8QkwAjHrmM\",\"width\":4032}],\"place_id\":\"ChIJzxTJ2Ubkc0cR7_ADK5mpRAA\",\"plus_code\":{\"compound_code\":\"X28C+2G Pettenbach, Austria\",\"global_code\":\"8FVPX28C+2G\"},\"rating\":5,\"reference\":\"ChIJzxTJ2Ubkc0cR7_ADK5mpRAA\",\"reviews\":[],\"types\":[\"car_dealer\",\"car_repair\",\"point_of_interest\",\"store\",\"establishment\"],\"url\":\"https:\\\/\\\/maps.google.com\\\/?cid=19326773733093615\",\"user_ratings_total\":43,\"utc_offset\":120,\"vicinity\":\"Kapellenweg 4, Pettenbach\",\"website\":\"http:\\\/\\\/www.powerzone.at\\\/\"}"
+        }
+      ],
+      "shippings": []
+    },
+    {
+      "id": 14,
+      "label": "Rabe Gastro GmbH",
+      "description": "",
+      "website": null,
+      "email": "reservierung@toscanini.co.at",
+      "phone": null,
+      "zip": "4560",
+      "city": "Kirchdorf",
+      "country": "AT",
+      "digital_goods": false,
+      "created_at": "2022-03-08T22:44:07.000000Z",
+      "updated_at": "2022-05-09T19:31:49.000000Z",
+      "address_line_1": "Hauptplatz 14,,",
+      "address_line_2": null,
+      "address_line_3": null,
+      "accepts": [
+        "Bitcoin",
+        "Dash",
+        "Litecoin",
+        "Ethereum",
+        "Ripple",
+        "Stellar",
+        "Nimiq"
+      ],
+      "pickups": [
+        {
+          "id": 3842,
+          "shop_id": 14,
+          "geo_location": {
+            "type": "Point",
+            "coordinates": [
+              14.122102,
+              47.904814
+            ]
+          },
+          "created_at": "2022-05-09T19:33:28.000000Z",
+          "updated_at": "2022-05-09T19:33:28.000000Z",
+          "place_id": "ChIJg9-e65jgc0cRtAWY5Auc0pY",
+          "label": null,
+          "place_information": "{\"address_components\":[{\"long_name\":\"14\",\"short_name\":\"14\",\"types\":[\"street_number\"]},{\"long_name\":\"Hauptplatz\",\"short_name\":\"Hauptpl.\",\"types\":[\"route\"]},{\"long_name\":\"Kirchdorf an der Krems\",\"short_name\":\"Kirchdorf an der Krems\",\"types\":[\"locality\",\"political\"]},{\"long_name\":\"Kirchdorf an der Krems\",\"short_name\":\"Kirchdorf an der Krems\",\"types\":[\"administrative_area_level_2\",\"political\"]},{\"long_name\":\"Ober\\u00f6sterreich\",\"short_name\":\"Ober\\u00f6sterreich\",\"types\":[\"administrative_area_level_1\",\"political\"]},{\"long_name\":\"Austria\",\"short_name\":\"AT\",\"types\":[\"country\",\"political\"]},{\"long_name\":\"4560\",\"short_name\":\"4560\",\"types\":[\"postal_code\"]}],\"adr_address\":\"<span class=\\\"street-address\\\">Hauptpl. 14<\\\/span>, <span class=\\\"postal-code\\\">4560<\\\/span> <span class=\\\"locality\\\">Kirchdorf an der Krems<\\\/span>, <span class=\\\"country-name\\\">Austria<\\\/span>\",\"formatted_address\":\"Hauptpl. 14, 4560 Kirchdorf an der Krems, Austria\",\"geometry\":{\"location\":{\"lat\":47.9048141,\"lng\":14.1221017},\"viewport\":{\"northeast\":{\"lat\":47.9062547302915,\"lng\":14.1237336302915},\"southwest\":{\"lat\":47.9035567697085,\"lng\":14.1210356697085}}},\"icon\":\"https:\\\/\\\/maps.gstatic.com\\\/mapfiles\\\/place_api\\\/icons\\\/v1\\\/png_71\\\/geocode-71.png\",\"icon_background_color\":\"#7B9EB0\",\"icon_mask_base_uri\":\"https:\\\/\\\/maps.gstatic.com\\\/mapfiles\\\/place_api\\\/icons\\\/v2\\\/generic_pinlet\",\"name\":\"Hauptpl. 14\",\"place_id\":\"ChIJg9-e65jgc0cRtAWY5Auc0pY\",\"reference\":\"ChIJg9-e65jgc0cRtAWY5Auc0pY\",\"types\":[\"premise\"],\"url\":\"https:\\\/\\\/maps.google.com\\\/?q=Hauptpl.+14,+4560+Kirchdorf+an+der+Krems,+Austria&ftid=0x4773e098eb9edf83:0x96d29c0be49805b4\",\"utc_offset\":120,\"vicinity\":\"Kirchdorf an der Krems\",\"reviews\":[]}"
+        }
+      ],
+      "shippings": []
+    },
+    {
+      "id": 15,
+      "label": "FIN Handelsagentur Franz Inreiter",
+      "description": "",
+      "website": null,
+      "email": "fin@fin.co.at",
+      "phone": null,
+      "zip": "4542",
+      "city": "Nu\u00dfbach",
+      "country": "AT",
+      "digital_goods": false,
+      "created_at": "2022-03-08T22:44:07.000000Z",
+      "updated_at": "2022-05-09T19:31:49.000000Z",
+      "address_line_1": "Audorf 17,,",
+      "address_line_2": null,
+      "address_line_3": null,
+      "accepts": [
+        "Bitcoin",
+        "Dash",
+        "Litecoin",
+        "Ethereum",
+        "Ripple",
+        "Stellar",
+        "Nimiq"
+      ],
+      "pickups": [
+        {
+          "id": 3844,
+          "shop_id": 15,
+          "geo_location": {
+            "type": "Point",
+            "coordinates": [
+              14.13017,
+              47.964095
+            ]
+          },
+          "created_at": "2022-05-09T19:33:28.000000Z",
+          "updated_at": "2022-05-09T19:33:28.000000Z",
+          "place_id": "ChIJvSMlnaDnc0cRlOGxAuOTzL4",
+          "label": null,
+          "place_information": "{\"address_components\":[{\"long_name\":\"Audorf\",\"short_name\":\"Audorf\",\"types\":[\"route\"]},{\"long_name\":\"Nu\\u00dfbach\",\"short_name\":\"Nu\\u00dfbach\",\"types\":[\"locality\",\"political\"]},{\"long_name\":\"Kirchdorf an der Krems\",\"short_name\":\"Kirchdorf an der Krems\",\"types\":[\"administrative_area_level_2\",\"political\"]},{\"long_name\":\"Ober\\u00f6sterreich\",\"short_name\":\"Ober\\u00f6sterreich\",\"types\":[\"administrative_area_level_1\",\"political\"]},{\"long_name\":\"Austria\",\"short_name\":\"AT\",\"types\":[\"country\",\"political\"]},{\"long_name\":\"4542\",\"short_name\":\"4542\",\"types\":[\"postal_code\"]}],\"adr_address\":\"<span class=\\\"street-address\\\">Audorf<\\\/span>, <span class=\\\"postal-code\\\">4542<\\\/span> <span class=\\\"locality\\\">Nu\\u00dfbach<\\\/span>, <span class=\\\"country-name\\\">Austria<\\\/span>\",\"business_status\":\"OPERATIONAL\",\"formatted_address\":\"Audorf, 4542 Nu\\u00dfbach, Austria\",\"formatted_phone_number\":\"0676 5719799\",\"geometry\":{\"location\":{\"lat\":47.9640949,\"lng\":14.1301697},\"viewport\":{\"northeast\":{\"lat\":47.9654477802915,\"lng\":14.1314720302915},\"southwest\":{\"lat\":47.9627498197085,\"lng\":14.1287740697085}}},\"icon\":\"https:\\\/\\\/maps.gstatic.com\\\/mapfiles\\\/place_api\\\/icons\\\/v1\\\/png_71\\\/generic_business-71.png\",\"icon_background_color\":\"#7B9EB0\",\"icon_mask_base_uri\":\"https:\\\/\\\/maps.gstatic.com\\\/mapfiles\\\/place_api\\\/icons\\\/v2\\\/generic_pinlet\",\"international_phone_number\":\"+43 676 5719799\",\"name\":\"Franz Inreiter\",\"place_id\":\"ChIJvSMlnaDnc0cRlOGxAuOTzL4\",\"rating\":1,\"reference\":\"ChIJvSMlnaDnc0cRlOGxAuOTzL4\",\"reviews\":[],\"types\":[\"point_of_interest\",\"establishment\"],\"url\":\"https:\\\/\\\/maps.google.com\\\/?cid=13748526365667352980\",\"user_ratings_total\":1,\"utc_offset\":120,\"vicinity\":\"Audorf, Nu\\u00dfbach\",\"website\":\"https:\\\/\\\/www.fin.co.at\\\/kontakt\"}"
+        }
+      ],
+      "shippings": []
+    }
+  ],
+  "first_page_url": "http:\/\/shop-directory.zeromox.com\/api\/search?page=1",
+  "from": 1,
+  "last_page": 12,
+  "last_page_url": "http:\/\/shop-directory.zeromox.com\/api\/search?page=12",
+  "links": [
+    {
+      "url": null,
+      "label": "&laquo; Previous",
+      "active": false
+    },
+    {
+      "url": "http:\/\/shop-directory.zeromox.com\/api\/search?page=1",
+      "label": "1",
+      "active": true
+    },
+    {
+      "url": "http:\/\/shop-directory.zeromox.com\/api\/search?page=2",
+      "label": "2",
+      "active": false
+    },
+    {
+      "url": "http:\/\/shop-directory.zeromox.com\/api\/search?page=3",
+      "label": "3",
+      "active": false
+    },
+    {
+      "url": "http:\/\/shop-directory.zeromox.com\/api\/search?page=4",
+      "label": "4",
+      "active": false
+    },
+    {
+      "url": "http:\/\/shop-directory.zeromox.com\/api\/search?page=5",
+      "label": "5",
+      "active": false
+    },
+    {
+      "url": "http:\/\/shop-directory.zeromox.com\/api\/search?page=6",
+      "label": "6",
+      "active": false
+    },
+    {
+      "url": "http:\/\/shop-directory.zeromox.com\/api\/search?page=7",
+      "label": "7",
+      "active": false
+    },
+    {
+      "url": "http:\/\/shop-directory.zeromox.com\/api\/search?page=8",
+      "label": "8",
+      "active": false
+    },
+    {
+      "url": "http:\/\/shop-directory.zeromox.com\/api\/search?page=9",
+      "label": "9",
+      "active": false
+    },
+    {
+      "url": "http:\/\/shop-directory.zeromox.com\/api\/search?page=10",
+      "label": "10",
+      "active": false
+    },
+    {
+      "url": "http:\/\/shop-directory.zeromox.com\/api\/search?page=11",
+      "label": "11",
+      "active": false
+    },
+    {
+      "url": "http:\/\/shop-directory.zeromox.com\/api\/search?page=12",
+      "label": "12",
+      "active": false
+    },
+    {
+      "url": "http:\/\/shop-directory.zeromox.com\/api\/search?page=2",
+      "label": "Next &raquo;",
+      "active": false
+    }
+  ],
+  "next_page_url": "http:\/\/shop-directory.zeromox.com\/api\/search?page=2",
+  "path": "http:\/\/shop-directory.zeromox.com\/api\/search",
+  "per_page": 20,
+  "prev_page_url": null,
+  "to": 20,
+  "total": 239
+}
