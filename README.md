@@ -1,5 +1,19 @@
 # Use your crypto!
 
-Where to enjoy your crypto gainz? This map has you covered. We aim to be the most usable and up-to-date map of the crypto space. Period.
+Where can you enjoy using your crypto? This map has you covered. The aim of this project is to build the most usable and up-to-date map of all the places in the world that accept crypto. Period.
 
-[try it out](https://useyourcrypto.netlify.app)
+[See it live!](https://useyourcrypto.netlify.app)
+
+## Developing
+
+### Run locally
+
+```sh
+yarn install
+yarn dev
+```
+
+### Get coding
+
+The project is based on Vue.js 3 with Pinia using Typescript, Pug, and Stylus as meta languages.
+To get started, check out the base component `CryptoMap.vue`.
