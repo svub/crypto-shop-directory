@@ -8,15 +8,13 @@ const results = useSearchResults();
 let place = ref(results.shown?.place);
 
 const symbol = useCurrencySymbols();
-const images = ref();
+const images = ref(new Map<string, string>());
 watchEffect(async () => { // load logos for each currency accepted by currently shown venue
   if (results.shown){
-    const map = new Map<string, string>();
-    for (const currency of results.shown.accepts) {
+    results.shown.accepts.forEach(async currency => {
       const url = await symbol.image(currency);
-      map.set(currency, url);
-    }
-    images.value = Object.fromEntries(map);
+      images.value.set(currency, url);
+    });
   }
 });
 
@@ -37,12 +35,14 @@ watchEffect(() => place.value = results.shown?.place);
 
   .accepted.panel
     .currency(v-for="currency in results.shown.accepts" :class="_.kebabCase(_.deburr(currency))")
-      img(:src="images[currency]" :title="`${currency} accepted here`")
+      img(v-if="images.has(currency)" :src="images.get(currency)" :title="`${currency} accepted here`")
 
   .contact.panel
     .address {{ place.formatted_address}}
     .phone(v-if="results.shown.phone") {{ results.shown.phone }}
     .website(v-if="results.shown.website") {{ results.shown.website }}
+    .googleMaps(v-if="place.url")
+      a(:href="place.url" target="_blank") View on Google Maps
 
   .open.panel(v-if="place.opening_hours")
     .day(v-for="day in (place.opening_hours.weekday_text ?? [])") {{ day }}
@@ -74,9 +74,10 @@ space=1em
     display flex
     flex 1
     flex-direction row
-    align-items center
+    justify-content space-around
 
     .currency
+      display flex
       margin-right .5em
 
 </style>
