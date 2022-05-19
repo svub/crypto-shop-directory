@@ -32,7 +32,7 @@ onMounted(async () => {
     maxZoom: 15,
     attributionControl: false,
   });
-  map.on('move', _.throttle(viewPortChanged, 250, { leading: false })); // also triggered when zooming
+  map.on('move', _.debounce(viewPortChanged, 200)); // also triggered when zooming
   map.addControl(new mb.FullscreenControl(), 'bottom-right'); //({ container: document.body, }));
   map.addControl(new mb.NavigationControl(), 'top-right');
   map.addControl(new mb.GeolocateControl({
